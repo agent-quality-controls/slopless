@@ -1,177 +1,116 @@
 # slopless
 
-Install:
+Slopless is a deterministic Markdown checker for AI and human slop in writing.
+
+It reports patterns that make prose padded, vague, generic, formulaic, or mechanically careless. It does not call an LLM. Output is always textlint JSON.
+
+## Install
 
 ```bash
 npm install -D slopless
 ```
 
-Run:
-
-```bash
-npx slopless
-```
-
-Run on a specific path:
+## Run
 
 ```bash
 npx slopless "docs/**/*.md"
+npx slopless draft.md > slopless.json
+cat draft.md | npx slopless --stdin --stdin-filename draft.md
 ```
 
-Save JSON:
-
-```bash
-npx slopless "docs/**/*.md" > slopless.json
-```
-
-## Npm Script
-
-Add this to `package.json`:
+Add an npm script:
 
 ```json
 {
   "scripts": {
-    "lint:prose": "slopless"
+    "lint:prose": "slopless \"docs/**/*.md\""
   }
 }
 ```
 
-Run:
-
 ```bash
 npm run lint:prose
 ```
 
-## What Slopless Is
+Slopless requires a file path, glob, or stdin input. A bare `npx slopless` exits with code `2`.
 
-Slopless is a deterministic prose checker for Markdown.
+## Behavior
 
-It reports concrete writing patterns that often make generated or careless prose feel padded, vague, generic, or formulaic.
-
-It is built for local scripts, CI checks, review pipelines, and tools that need structured prose findings without calling an LLM.
-
-## What Slopless Is Not
-
-Slopless does not rewrite text.
-
-Slopless does not check facts.
-
-Slopless does not judge taste.
-
-Slopless does not replace editing.
-
-It reports rule findings. A person or another tool decides what to do with them.
-
-## Defaults
-
-- Checks `**/*.md` when no path is passed.
-- Emits JSON only.
 - Requires Node.js 20 or newer.
 - Requires no `.textlintrc.json`.
 - Requires no separate `textlint` install.
+- Emits textlint JSON only.
+- Rejects `--format` and `-f`.
+- Exits `0` for no findings, `1` for prose findings, and `2` for command failure.
 
-## Exit Codes
+Each JSON message includes the rule ID, line, column, message, and range data when textlint provides it. Rule IDs use `slopless/<rule-name>` in wrapped textlint output, such as `slopless/semantic-thinness`.
 
-- `0`: no findings
-- `1`: prose findings were reported
-- `2`: command failure before linting
+## Rules
 
-## Output
+Metrics:
 
-Output is always textlint JSON.
+- `avg-sentence-length`: average sentence length above 24 words.
+- `paragraph-length`: paragraphs over 6 sentences.
+- `word-repetition`: one non-trivial word repeated over 5 times.
+- `flesch-kincaid`: Flesch Reading Ease below 61.
+- `gunning-fog` and `coleman-liau`: grade scores above 12.
 
-Each result contains the checked file path and its messages. Each message includes the rule ID, line, column, message text, and range data when textlint can provide it.
+Orthography:
 
-Rule IDs use this shape:
+- `colon-dramatic`: short reveals after a colon, such as `And then: everything changed.`
+- `em-dashes`: closed em dashes.
+- `exclamation-density`: more than 1 exclamation mark per paragraph.
+- `fake-timestamps`: clock specificity, such as `5:47 PM`.
+- `sentence-case`: title-case headings.
+- `smart-quotes`: curly quotes.
 
-```text
-slopless/<rule-name>
-```
+Phrases and words:
 
-Example:
+- `cliches`: stock phrases, such as `at the end of the day`.
+- `corporate-speak`: business filler, such as `move the needle`.
+- `hedge-stacking`: stacked hedges, such as `might perhaps`.
+- `humble-bragger`: credential lead-ins, such as `in my experience`.
+- `jargon-faker`: borrowed tech metaphors, such as `debug your morning`.
+- `llm-disclaimer`: assistant disclaimers, such as `as an AI language model`.
+- `llm-vocabulary`: common AI diction, such as `delve`.
+- `prohibited-phrases` and `prohibited-words`: package-owned banned lists.
+- `recommended-terms` and `required-terms`: configured missing terms.
+- `simplicity`: complex words with simple replacements, such as `utilize`.
+- `skunked-terms`: contested broad-use terms.
+- `uncomparables`: impossible modifiers, such as `very unique`.
 
-```text
-slopless/semantic-thinness
-slopless/llm-openers
-slopless/hedge-stacking
-```
+Semantic thinness:
 
-## CI Use
+- `semantic-thinness`: low-information templates, such as `Something shifted in the room.`
 
-Run Slopless in CI:
+Syntactic patterns:
 
-```bash
-npm ci
-npm run lint:prose
-```
+- `affirmation-closers`: empty certainty endings, such as `and that is the key`.
+- `authority-padding`: soft authority padding, such as `research shows`.
+- `blame-reframe`: blame-to-insight reframes, such as `the problem is not X, it is Y`.
+- `boilerplate-conclusion`: generic endings, such as `in conclusion`.
+- `boilerplate-framing`: generic setup, such as `when it comes to`.
+- `contrastive-aphorism`: slogan contrasts, such as `not faster, but smarter`.
+- `demonstrative-emphasis`: vague `this is what` emphasis.
+- `empty-emphasis`: unsupported importance claims, such as `this matters`.
+- `false-question`: rhetorical questions, such as `isn't that what we all want?`
+- `fragment-stacking`: clipped cadence, such as `Too broad. Too vague. Too late.`
+- `generic-signposting`: generic transitions, such as `it is important to note`.
+- `lesson-framing`: lesson extraction, such as `the lesson is`.
+- `llm-openers`: generic openers, such as `the important thing is`.
+- `negation-reframe`: `not X. It is Y.` constructions.
+- `observer-guidance`: reader-instruction frames, such as `notice how`.
+- `response-wrapper`: chat wrappers, such as `here is a revised version`.
+- `softening-language`: vague softeners, such as `in many ways`.
+- `summative-closer`: summary payoff lines, such as `that is what makes it work`.
+- `triple-repeat`: repeated sentence openers, such as `It is X. It is Y. It is Z.`
+- `universalizing-claims`: broad claims, such as `everyone knows`.
 
-Save findings as an artifact:
+## Direct Textlint Use
 
-```bash
-npx slopless "docs/**/*.md" > slopless.json
-```
+Most users should run `npx slopless "docs/**/*.md"`.
 
-The command exits `1` when findings exist, so CI fails by default on reported prose issues.
-
-## Stdin
-
-Check text from stdin:
-
-```bash
-cat draft.md | npx slopless --stdin --stdin-filename draft.md
-```
-
-`--stdin-filename` should end in `.md` so textlint parses the input as Markdown.
-
-## Supported Options
-
-Slopless forwards normal textlint file and execution options.
-
-Useful examples:
-
-```bash
-npx slopless "docs/**/*.md" --quiet
-npx slopless --stdin --stdin-filename draft.md
-npx slopless --no-color
-```
-
-Unsupported:
-
-```bash
-npx slopless --format stylish
-npx slopless -f json
-```
-
-`--format` and `-f` are rejected because Slopless always emits JSON.
-
-## What It Checks
-
-Slopless checks for:
-
-- stock AI-style phrasing
-- empty or generic prose patterns
-- rhetorical filler
-- weak lead-ins and closers
-- hedge stacking
-- prohibited or overused vocabulary
-- cliches and corporate phrasing
-- fake precision signals
-- readability and sentence metrics
-- Markdown style signals
-
-## Why It Exists
-
-Generated prose often repeats the same rhetorical moves: vague contrast, empty emotional payoff, overconfident summaries, generic transitions, and formulaic conclusions.
-
-General grammar tools are not aimed at those patterns. LLM review can catch them, but it is slower, non-deterministic, and harder to use as a stable CI gate.
-
-Slopless keeps that layer deterministic. It gives projects a repeatable JSON report of known prose issues.
-
-## Advanced Textlint Use
-
-The package also exports a textlint preset for users who already run textlint directly.
-
-`.textlintrc.json`:
+The package also exports a textlint preset:
 
 ```json
 {
@@ -181,10 +120,6 @@ The package also exports a textlint preset for users who already run textlint di
 }
 ```
 
-Direct textlint use:
-
 ```bash
 npx textlint "docs/**/*.md"
 ```
-
-Most users should use `npx slopless` instead.

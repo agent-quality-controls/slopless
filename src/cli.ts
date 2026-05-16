@@ -4,30 +4,46 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { cli } from "textlint/lib/src/cli.js";
 
-const DEFAULT_TARGET = "**/*.md";
 const FORMAT_FLAGS = new Set(["--format", "-f"]);
 const HELP_FLAGS = new Set(["--help", "-h"]);
+const STDIN_FLAGS = new Set(["--stdin"]);
 const VERSION_FLAGS = new Set(["--version", "-v"]);
-const VERSION = "0.2.3";
-const HELP_TEXT = `Slopless checks Markdown prose for deterministic slop signals and writes JSON.
+const VALUE_OPTIONS = new Set([
+  "--cache-location",
+  "--config",
+  "--ignore-path",
+  "--output-file",
+  "--plugin",
+  "--preset",
+  "--rule",
+  "--rules-base-directory",
+  "--rulesdir",
+  "--stdin-filename",
+  "-c",
+  "-o"
+]);
+const VERSION = "0.2.4";
+const HELP_TEXT = `Slopless checks Markdown prose for deterministic AI and human slop signals.
+
+It reports concrete patterns that make writing padded, vague, generic,
+formulaic, or mechanically careless. Output is always textlint JSON.
 
 Install:
   npm install -D slopless
 
 Run:
-  npx slopless
   npx slopless "docs/**/*.md"
   npx slopless draft.md > slopless.json
 
 Package script:
   {
     "scripts": {
-      "lint:prose": "slopless"
+      "lint:prose": "slopless \\"docs/**/*.md\\""
     }
   }
 
 Default behavior:
-  - If no file path is passed, Slopless checks **/*.md.
+  - A file path, glob, or stdin input is required.
   - Output is always JSON.
   - Exit 0 means no findings.
   - Exit 1 means Slopless found prose issues.
@@ -37,9 +53,9 @@ Default behavior:
 
 What it is for:
   Slopless is for deterministic prose checks in CI, local scripts, and review
-  pipelines. It catches repeated AI-style phrasing, empty claims, rhetorical
-  filler, weak lead-ins and closers, hedge stacking, readability problems, and
-  Markdown style signals.
+  pipelines. It catches AI-style phrasing, empty claims, rhetorical filler,
+  weak lead-ins and closers, hedge stacking, readability problems, and Markdown
+  style signals.
 
 What it is not for:
   Slopless does not rewrite text, check facts, judge taste, or replace human
@@ -69,13 +85,47 @@ function hasFlag(args: readonly string[], flags: ReadonlySet<string>): boolean {
 }
 
 function hasFileTarget(args: readonly string[]): boolean {
-  return args.some((arg) => !arg.startsWith("-"));
+  for (let index = 0; index < args.length; index += 1) {
+    const arg = args[index];
+
+    if (arg === undefined) {
+      continue;
+    }
+
+    if (VALUE_OPTIONS.has(arg)) {
+      index += 1;
+      continue;
+    }
+
+    if (arg.startsWith("--") && arg.includes("=")) {
+      continue;
+    }
+
+    if (arg.startsWith("-")) {
+      continue;
+    }
+
+    return true;
+  }
+
+  return false;
 }
 
 function packageNodeModules(): string {
   const packageRoot = dirname(dirname(fileURLToPath(import.meta.url)));
 
   return resolve(packageRoot, "..");
+}
+
+async function readStdin(): Promise<string> {
+  let text = "";
+  const stream = process.stdin.setEncoding("utf8") as AsyncIterable<string>;
+
+  for await (const chunk of stream) {
+    text += chunk;
+  }
+
+  return text;
 }
 
 async function main(): Promise<number> {
@@ -98,6 +148,13 @@ async function main(): Promise<number> {
     return 2;
   }
 
+  if (!hasFileTarget(userArgs) && !hasFlag(userArgs, STDIN_FLAGS)) {
+    process.stderr.write(
+      "slopless requires a file path, glob, or --stdin input. Run slopless --help.\n"
+    );
+    return 2;
+  }
+
   const args = [
     "node",
     "slopless",
@@ -110,8 +167,8 @@ async function main(): Promise<number> {
     ...userArgs
   ];
 
-  if (!hasFileTarget(userArgs)) {
-    args.push(DEFAULT_TARGET);
+  if (hasFlag(userArgs, STDIN_FLAGS)) {
+    return cli.execute(args, await readStdin());
   }
 
   return cli.execute(args);
