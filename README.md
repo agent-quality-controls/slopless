@@ -8,6 +8,8 @@
 
 Catch AI and human slop in Markdown without calling an LLM. Slopless ships 50+ deterministic textlint rules and a CLI that emits structured JSON findings.
 
+For design rationale and how slopless compares to proselint, write-good, alex, vale, and other linters, see the [wiki](https://github.com/agent-quality-controls/slopless/wiki).
+
 It reports patterns that make prose padded, vague, generic, formulaic, or mechanically careless. It does not call an LLM. Output is always textlint JSON.
 
 ## Install
