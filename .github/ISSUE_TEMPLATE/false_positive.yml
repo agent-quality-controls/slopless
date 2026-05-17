@@ -1,0 +1,29 @@
+name: False positive
+description: A slopless rule fired on prose that is not slop
+labels: ["false-positive"]
+body:
+  - type: input
+    id: rule-id
+    attributes:
+      label: Rule ID
+      description: e.g. slopless/llm-openers
+    validations:
+      required: true
+  - type: textarea
+    id: text
+    attributes:
+      label: The text that fired
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: why-not-slop
+    attributes:
+      label: Why this is not slop
+      description: What makes this an acceptable use? Author context, technical necessity, idiom?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: slopless version

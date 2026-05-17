@@ -1,0 +1,32 @@
+name: Rule request
+description: Propose a new slop pattern slopless should detect
+labels: ["rule-request"]
+body:
+  - type: textarea
+    id: pattern
+    attributes:
+      label: The pattern
+      description: Quote 2-5 example phrases or paragraphs that show the slop pattern.
+    validations:
+      required: true
+  - type: textarea
+    id: why-slop
+    attributes:
+      label: Why this is slop
+      description: Why does this pattern damage prose? What signal does it carry about the author or tool that produced it?
+    validations:
+      required: true
+  - type: textarea
+    id: not-slop
+    attributes:
+      label: Acceptable variants
+      description: Examples that look similar but are NOT slop. Helps avoid false positives.
+  - type: input
+    id: family
+    attributes:
+      label: Suggested rule family
+      description: One of metrics, orthography, phrases, syntactic-patterns, semantic-thinness, narrative-slop, academic-slop, term-policy.
+  - type: input
+    id: suggested-id
+    attributes:
+      label: Suggested rule ID
