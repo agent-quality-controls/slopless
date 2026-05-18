@@ -46,7 +46,7 @@ text = "However, the rollback owner signed the launch note after the incident re
 
 [[fixture_text]]
 path = "behavior/fixtures/textlint-rules/cases/syntactic-patterns/no-hits.md"
-text = "The report says the queue recovered. The owner signed the rollback. The deadline moved after finance approved the export."
+text = "The report says the queue recovered. Its owner signed the rollback. Finance approved the export before the deadline moved."
 
 [[fixture_text]]
 path = "behavior/fixtures/textlint-rules/cases/syntactic-patterns/no-hits.md"

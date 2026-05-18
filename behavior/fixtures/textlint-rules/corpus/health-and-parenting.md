@@ -74,6 +74,8 @@ Finally, if procrastination is chronic, severe, or tied to anxiety, depression, 
 
 The parenting review keeps a sourced control beside the unsupported claims. Experts at the World Health Organization describe sleep guidance in the public report. Research shows that children need sleep.
 
+The review also keeps attribution controls next to the suspicious claims. Some critics at the FDA argued in 2024 that the trial endpoint was too narrow. Many believe the platform is known for the 2025 accessibility audit.
+
 ### screens with children
 
 The parenting section returns to screens as a household system.

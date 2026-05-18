@@ -19,8 +19,12 @@ const AUTHORITY_STARTS: readonly (readonly string[])[] = [
   ["experts", "say"],
   ["experts", "warn"],
   ["it", "is", "commonly", "believed"],
+  ["it", "is", "considered"],
+  ["it", "is", "known", "for"],
+  ["it", "is", "regarded", "as"],
   ["it", "is", "well", "established"],
   ["it", "is", "widely", "accepted"],
+  ["many", "believe"],
   ["research", "confirms"],
   ["research", "indicates"],
   ["research", "proves"],
@@ -35,6 +39,8 @@ const AUTHORITY_STARTS: readonly (readonly string[])[] = [
   ["scientists", "agree"],
   ["scientists", "say"],
   ["scientists", "warn"],
+  ["some", "argue"],
+  ["some", "critics", "argue"],
   ["studies", "confirm"],
   ["studies", "indicate"],
   ["studies", "prove"],
@@ -46,6 +52,7 @@ const NAMED_SOURCES = [
   "american psychological association",
   "centers for disease control",
   "cdc",
+  "fda",
   "medlineplus",
   "mayo clinic",
   "national institutes of health",
@@ -86,9 +93,23 @@ function hasNamedSource(text: string): boolean {
   return NAMED_SOURCES.some((source) => text.includes(source));
 }
 
+function hasDigit(text: string): boolean {
+  for (const character of text) {
+    if (character >= "0" && character <= "9") {
+      return true;
+    }
+  }
+
+  return false;
+}
+
 function matchUncitedAuthority(sentence: string): string | undefined {
   const cleaned = cleanSentence(sentence, PREFIXES);
-  if (hasCitationMarker(cleaned) || hasNamedSource(cleaned)) {
+  if (
+    hasCitationMarker(cleaned) ||
+    hasNamedSource(cleaned) ||
+    hasDigit(cleaned)
+  ) {
     return undefined;
   }
 

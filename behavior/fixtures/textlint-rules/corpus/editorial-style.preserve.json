@@ -2101,6 +2101,62 @@
       "bucket": "no-hits",
       "source": "cases/phrases/no-hits.md",
       "line": 91
+    },
+    {
+      "text": "The report clearly demonstrates the crucial importance of the strategy.",
+      "family": "semantic-thinness",
+      "bucket": "hits",
+      "source": "cases/semantic-thinness/hits.md",
+      "line": 123
+    },
+    {
+      "text": "The rollout was a remarkable success.",
+      "family": "semantic-thinness",
+      "bucket": "hits",
+      "source": "cases/semantic-thinness/hits.md",
+      "line": 125
+    },
+    {
+      "text": "The platform is a visionary approach to education.",
+      "family": "semantic-thinness",
+      "bucket": "hits",
+      "source": "cases/semantic-thinness/hits.md",
+      "line": 127
+    },
+    {
+      "text": "The launch had a devastating impact on the industry.",
+      "family": "semantic-thinness",
+      "bucket": "hits",
+      "source": "cases/semantic-thinness/hits.md",
+      "line": 129
+    },
+    {
+      "text": "The report demonstrates that revenue rose 14 percent after the strategy changed.",
+      "family": "semantic-thinness",
+      "bucket": "no-hits",
+      "source": "cases/semantic-thinness/no-hits.md",
+      "line": 91
+    },
+    {
+      "text": "The rollout reduced failed invoices from 28 to 3.",
+      "family": "semantic-thinness",
+      "bucket": "no-hits",
+      "source": "cases/semantic-thinness/no-hits.md",
+      "line": 93
+    },
+    {
+      "text": "The 2025 audit called the platform a visionary approach to education.",
+      "family": "semantic-thinness",
+      "bucket": "no-hits",
+      "source": "cases/semantic-thinness/no-hits.md",
+      "line": 95
+    },
+    {
+      "text": "The launch delayed 42 container shipments at the west dock.",
+      "family": "semantic-thinness",
+      "bucket": "no-hits",
+      "source": "cases/semantic-thinness/no-hits.md",
+      "line": 97
     }
   ]
 }

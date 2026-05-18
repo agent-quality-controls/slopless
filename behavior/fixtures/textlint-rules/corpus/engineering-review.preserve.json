@@ -2467,7 +2467,7 @@
       "line": 125
     },
     {
-      "text": "The report says the queue recovered. The owner signed the rollback. The deadline moved after finance approved the export.",
+      "text": "The report says the queue recovered. Its owner signed the rollback. Finance approved the export before the deadline moved.",
       "family": "syntactic-patterns",
       "bucket": "no-hits",
       "source": "cases/syntactic-patterns/no-hits.md",
@@ -2479,6 +2479,76 @@
       "bucket": "no-hits",
       "source": "cases/syntactic-patterns/no-hits.md",
       "line": 133
+    },
+    {
+      "text": "In summary, the roadmap proves that everything is aligned.",
+      "family": "syntactic-patterns",
+      "bucket": "hits",
+      "source": "cases/syntactic-patterns/hits.md",
+      "line": 987
+    },
+    {
+      "text": "The bottom line is that the process shows meaningful progress.",
+      "family": "syntactic-patterns",
+      "bucket": "hits",
+      "source": "cases/syntactic-patterns/hits.md",
+      "line": 989
+    },
+    {
+      "text": "Some critics argue that the redesign represents a major turning point for teams.",
+      "family": "syntactic-patterns",
+      "bucket": "hits",
+      "source": "cases/syntactic-patterns/hits.md",
+      "line": 991
+    },
+    {
+      "text": "Many believe the platform is known for changing how work happens.",
+      "family": "syntactic-patterns",
+      "bucket": "hits",
+      "source": "cases/syntactic-patterns/hits.md",
+      "line": 993
+    },
+    {
+      "text": "Several important factors shaped the final outcome.",
+      "family": "syntactic-patterns",
+      "bucket": "hits",
+      "source": "cases/syntactic-patterns/hits.md",
+      "line": 995
+    },
+    {
+      "text": "Various areas created meaningful impact across the organization.",
+      "family": "syntactic-patterns",
+      "bucket": "hits",
+      "source": "cases/syntactic-patterns/hits.md",
+      "line": 997
+    },
+    {
+      "text": "In summary, invoices failed because the retry worker used the old token.",
+      "family": "syntactic-patterns",
+      "bucket": "no-hits",
+      "source": "cases/syntactic-patterns/no-hits.md",
+      "line": 135
+    },
+    {
+      "text": "The bottom line is that cache misses rose from 4 percent to 11 percent.",
+      "family": "syntactic-patterns",
+      "bucket": "no-hits",
+      "source": "cases/syntactic-patterns/no-hits.md",
+      "line": 137
+    },
+    {
+      "text": "Seven supplier delays shaped the final outcome.",
+      "family": "syntactic-patterns",
+      "bucket": "no-hits",
+      "source": "cases/syntactic-patterns/no-hits.md",
+      "line": 143
+    },
+    {
+      "text": "Several important factors, including late customs paperwork and a missing invoice, shaped the final outcome.",
+      "family": "syntactic-patterns",
+      "bucket": "no-hits",
+      "source": "cases/syntactic-patterns/no-hits.md",
+      "line": 145
     }
   ]
 }

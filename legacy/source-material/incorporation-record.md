@@ -375,6 +375,40 @@ Active source candidates stay in `legacy/source-material/derived/*.md`. Reviewed
   - narrative cliche matcher skips quoted phrase examples
   - no-hit fixtures include medical and task-bound uses
 
+### Summary, Vague, And Subjective Expansion From 2026-05-18 Research
+
+- Source:
+  - `legacy/source-material/expansion-2026-05-18/rule-libraries/derived/high-confidence-candidates.json`
+  - `legacy/source-material/expansion-2026-05-18/ai-slop/derived/high-confidence-deterministic-candidates.json`
+  - `legacy/source-material/expansion-2026-05-18/academic-nlp/derived/wikipedia-quality-labels.json`
+  - `legacy/source-material/expansion-2026-05-18/academic-nlp/derived/vagueness-specificity-candidates.json`
+  - `legacy/source-material/expansion-2026-05-18/academic-nlp/derived/subjectivity-and-puffery-candidates.json`
+- Rules:
+  - `src/rules/syntactic-patterns/closers/summative-closer.ts`
+  - `src/rules/syntactic-patterns/authority/uncited-authority.ts`
+  - `src/rules/syntactic-patterns/generalization/universalizing-claims.ts`
+  - `src/rules/semantic-thinness/semantic-thinness.ts`
+- Rule data:
+  - `src/rules/semantic-thinness/patterns/puffery-evaluative-claim.json`
+- Implemented as:
+  - summary and conclusion frame expansion with concrete-marker guards
+  - unsupported attribution frames with citation, named-source, and digit guards
+  - vague quantifier plus abstract noun patterns with evidence guards
+  - bounded subjective puffery semantic templates
+- Pattern examples:
+  - `In summary, the roadmap proves that everything is aligned.`
+  - `Some critics argue that the redesign represents a major turning point for teams.`
+  - `Several important factors shaped the final outcome.`
+  - `The report clearly demonstrates the crucial importance of the strategy.`
+  - `The rollout was a remarkable success.`
+- Local changes:
+  - single vague quantifiers are not banned by themselves
+  - summary phrases are skipped when the sentence contains concrete cause, condition, date, measurement, or attachment evidence
+  - authority frames are skipped when a named source, citation marker, URL, parenthetical citation, or digit appears in the sentence
+  - subjective claims are kept inside reviewed semantic-thinness frames rather than importing broad peacock words
+- False-positive controls:
+  - case and corpus no-hits include concrete summaries, FDA/year attribution, numeric outcomes, and evidence-bearing vague quantifier frames
+
 ## Implemented Source-Derived Pattern Data
 
 - Wordiness:

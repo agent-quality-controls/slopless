@@ -1,11 +1,11 @@
 {
   "suite": "textlint-rules",
   "kind": "approved",
-  "run_id": "2026-05-18T17-04-41.043272Z-f3c41e06",
-  "run_commit": "97fba4d",
+  "run_id": "2026-05-18T17-37-53.540325Z-f3c41e06",
+  "run_commit": "205b712",
   "working_tree": "dirty",
-  "recorded_at": "2026-05-18T17:04:41.043272Z",
-  "fixture_hash": "sha256:3ac0a5b602a3be5e3b6743c790064e5ee4291838f37bb423b381d4fc647c4a88",
+  "recorded_at": "2026-05-18T17:37:53.540325Z",
+  "fixture_hash": "sha256:77b921d199a0ec60478f2ed312b84c690aead37377eec47c9e21ac839c2fbf2c",
   "manifest_hash": "sha256:f3c41e06f4c33e3b21fa87bec32cd48f42af6c1064c3e6ae7d226d744fdbe350",
   "tool_version": "0.1.8",
   "output_schema_version": "1",
@@ -60,19 +60,19 @@
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/semantic-thinness/hits.md",
-      "sha256": "sha256:d7eed3ed9089ba82762a3235816fe9e47c9b83165d7c4e8e9c57eceed2f2e291"
+      "sha256": "sha256:e77ccf512aab268481430fe451a60b32fb698e571c0edad1cf1d23792b7207a7"
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/semantic-thinness/no-hits.md",
-      "sha256": "sha256:c3899b329621109b9810a92f8248d1b2732b577f51c1813a7788ddd0f3bbc849"
+      "sha256": "sha256:507205d7b8dde68cc0a898a59fdfe9a4dca1394911c8fe8be4e140285ed5f9d2"
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/syntactic-patterns/hits.md",
-      "sha256": "sha256:000fb84f5c0fdf4b295cc41edcd02eb4f8401ddac5b12a0dcd76ae2702712fab"
+      "sha256": "sha256:d3d12ce404c52ef5697e55915e63a829f3d78b8697ac0d34ed58d47dc565db3a"
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/syntactic-patterns/no-hits.md",
-      "sha256": "sha256:68f4256326a6717b144696090293eb9eb9bf850198b9d78b0fa812e87478e682"
+      "sha256": "sha256:071a851eac190854c74b53bee5e4496f1308115aebee3250009880a00bfc4d33"
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/term-policy/hits.md",
@@ -92,15 +92,15 @@
     },
     {
       "path": "behavior/fixtures/textlint-rules/corpus/editorial-style.md",
-      "sha256": "sha256:a4ef8102b94636c430871190e0184d5c977a1d5d4eb14ad4c0969342d5869818"
+      "sha256": "sha256:f1ef9ede53a5276ae9272fa0edac8dc077e11053b85a48799fcf3e69509ad538"
     },
     {
       "path": "behavior/fixtures/textlint-rules/corpus/engineering-review.md",
-      "sha256": "sha256:a50c693d21e6cd83c1e98ce2da9a774711508180c06acbb36aacf2dfcfe07582"
+      "sha256": "sha256:2d8d711f0bf3afa528bbbff0923564d25af6db5ee81e84023149e73d4771b5ca"
     },
     {
       "path": "behavior/fixtures/textlint-rules/corpus/health-and-parenting.md",
-      "sha256": "sha256:5b32db2263dd6652c58d1ff56006b8bbd1947efd68fa8ca2792f4ff5270e7f9e"
+      "sha256": "sha256:3ec23258d0ff872bac6bc43914e78cf837c4422b072330dc7b3e19c8c24e708c"
     },
     {
       "path": "behavior/fixtures/textlint-rules/corpus/metrics-and-markdown.md",
@@ -115,5 +115,5 @@
       "sha256": "sha256:e56e6ed5b1d94558aecd64c1844affcea9a6e6b7189ece747581949b27d3a870"
     }
   ],
-  "comment": "Move new syntactic cases to preserve-stable tail"
+  "comment": "Add summary vague and subjective prose checks"
 }

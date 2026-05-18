@@ -1331,6 +1331,20 @@
       "bucket": "no-hits",
       "source": "cases/syntactic-patterns/no-hits.md",
       "line": 131
+    },
+    {
+      "text": "Some critics at the FDA argued in 2024 that the trial endpoint was too narrow.",
+      "family": "syntactic-patterns",
+      "bucket": "no-hits",
+      "source": "cases/syntactic-patterns/no-hits.md",
+      "line": 139
+    },
+    {
+      "text": "Many believe the platform is known for the 2025 accessibility audit.",
+      "family": "syntactic-patterns",
+      "bucket": "no-hits",
+      "source": "cases/syntactic-patterns/no-hits.md",
+      "line": 141
     }
   ]
 }

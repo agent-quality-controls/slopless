@@ -6,10 +6,13 @@ Implemented material from the latest batches is archived in:
 
 - `implemented/2026-05-18-ai-slop-gaps.md`
 - `implemented/2026-05-18-artifact-placeholders-and-puffery.md`
+- `implemented/2026-05-18-wordiness-and-narrative-expansion.md`
 
 Raw captures and extraction reports stay in place as provenance. The list below is the working implementation review queue.
 
-## Best Next Implementation Candidates
+No active prose candidates remain queued from this file.
+
+## Deferred Candidates
 
 ### Deferred: Markdown file artifacts
 
@@ -48,126 +51,7 @@ Required no-hit controls:
 - A valid Markdown table.
 - A heading that uses bold text inside the body but is not itself a fully bold heading.
 
-### 1. Formal transition opener density
-
-Source files:
-
-- `rule-libraries/derived/high-confidence-candidates.json`
-- `ai-slop/derived/high-confidence-deterministic-candidates.json`
-- `ai-slop/raw/aismells/llms-full.txt`
-
-Signals:
-
-- `Additionally,`
-- `Furthermore,`
-- `Moreover,`
-- `In addition,`
-- `Notably,`
-- `Consequently,`
-- `Therefore,`
-- `Thus,`
-- `Ultimately,`
-
-Recommended implementation:
-
-- Existing family: `syntactic-patterns/lead-ins`.
-- Better rule name: `formal-transition-density`.
-- Count sentence openers per paragraph and adjacent sentence window.
-- Report only repeated density, not a single opener.
-
-Why next:
-
-- It catches a real LLM rhythm problem.
-- It can be implemented using existing sentence extraction.
-- It has clear false-positive control through density.
-
-Required no-hit controls:
-
-- One valid `However,` or `Therefore,` in an argument paragraph.
-- Legal, academic, or technical prose with one formal transition.
-- A blockquote with repeated transitions.
-
-### 2. Uncited authority frames
-
-Source files:
-
-- `ai-slop/derived/high-confidence-deterministic-candidates.json`
-- `academic-nlp/derived/wikipedia-quality-labels.json`
-- `academic-nlp/derived/vagueness-specificity-candidates.json`
-
-Signals:
-
-- `studies show`
-- `studies have shown`
-- `research suggests`
-- `research demonstrates`
-- `experts agree`
-- `experts suggest`
-- `it is widely believed`
-- `many believe`
-- `some critics argue`
-- `some argue`
-
-Recommended implementation:
-
-- Existing family: `syntactic-patterns/authority`.
-- Extend `authority-padding` or create `uncited-authority`.
-- Report when the authority frame has no nearby citation marker, URL, named source, year, or concrete study name.
-
-Why next:
-
-- It maps directly to existing `authority-padding`.
-- It catches empty authority, not just style.
-- It can be narrow if we require missing local evidence.
-
-Risks:
-
-- Citation detection can be brittle.
-- Valid summaries can use these phrases when evidence is nearby.
-
-Required no-hit controls:
-
-- `Research suggests` followed by a named study and year.
-- `Studies have shown` followed by a Markdown citation link.
-- A quoted example of bad authority language.
-
-### 3. Repeated sentence starts
-
-Source files:
-
-- `rule-libraries/derived/high-confidence-candidates.json`
-- `writing-corpora/derived/rule-and-fixture-candidates.json`
-
-Signals:
-
-- adjacent sentences start with the same first token
-- adjacent sentences start with the same first two tokens
-- low sentence-start variety in a paragraph
-
-Recommended implementation:
-
-- Existing family: `syntactic-patterns/repetition`.
-- Better rule name: `repeated-sentence-starts`.
-- Report adjacent repetition only after a threshold, such as three adjacent starts with the same two-token prefix.
-- Reuse current sentence extraction.
-
-Why next:
-
-- It catches a rhythm issue that current `triple-repeat` only partially covers.
-- It is deterministic.
-- It complements action-density and flat-cadence rules.
-
-Risks:
-
-- Rhetorical anaphora can be intentional.
-- Children's prose can use repeated starts deliberately.
-
-Required no-hit controls:
-
-- A quoted speech with deliberate rhetorical repetition.
-- A list-like paragraph with repeated labels that should be handled by Markdown structure, not prose rhythm.
-
-## Useful But Not First
+## Reviewed And Not Queued
 
 ### Mechanical bold list lead-ins
 
@@ -193,21 +77,6 @@ Reason not first:
 - A narrow by-agent version is implementable, but it is not specifically slop.
 - Scientific, incident, legal, and technical prose use passive voice legitimately.
 - This should be warning-level or profile-specific if implemented.
-
-### Vague quantifiers
-
-Signals:
-
-- `some`
-- `many`
-- `a few`
-- `a lot of`
-
-Reason not first:
-
-- Single quantifiers are too broad.
-- Useful implementation needs nearby missing number, date, measurement, or concrete noun checks.
-- This is more architecture than one bounded rule.
 
 ### Broad AI vocabulary
 
@@ -241,13 +110,3 @@ Reason not first:
 
 - These are grammar, learner-English, simplification, or fluency resources.
 - They are useful for no-hit fixtures and metrics calibration, not default Slopless rules.
-
-## Current Recommendation
-
-Implement in this order:
-
-1. `formal-transition-density`
-2. `uncited-authority`
-3. `repeated-sentence-starts`
-
-Keep `markdown-layout` deferred for now.

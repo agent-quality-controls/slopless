@@ -218,6 +218,10 @@ The cat slept near the door after lunch. A small dog ran across the yard. Birds 
 
 The editor marked "back to square one" in the margin as example text.
 
+The marketing review ends with subjective overstatement examples that should be rewritten before publication. The report clearly demonstrates the crucial importance of the strategy. The rollout was a remarkable success. The platform is a visionary approach to education. The launch had a devastating impact on the industry.
+
+The same review keeps concrete controls beside those examples. The report demonstrates that revenue rose 14 percent after the strategy changed. The rollout reduced failed invoices from 28 to 3. The 2025 audit called the platform a visionary approach to education. The launch delayed 42 container shipments at the west dock.
+
 At most, complete the first section before lunch.
 
 The editor marked "very unique" in the margin as example text.
