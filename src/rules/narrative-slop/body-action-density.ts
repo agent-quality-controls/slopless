@@ -105,12 +105,49 @@ const PHRASE_CUES: readonly PhraseCue[] = [
   { group: "movement cue", tokens: ["rested", "her", "paws"] },
   { group: "movement cue", tokens: ["rested", "his", "paws"] },
   { group: "movement cue", tokens: ["rested", "their", "paws"] },
+  { group: "body cue", tokens: ["could", "not", "help", "but", "feel"] },
+  { group: "body cue", tokens: ["couldn't", "help", "but", "feel"] },
+  { group: "body cue", tokens: ["could", "not", "shake", "the", "feeling"] },
+  { group: "body cue", tokens: ["couldn't", "shake", "the", "feeling"] },
+  { group: "body cue", tokens: ["eyes", "never", "leaving"] },
+  { group: "body cue", tokens: ["felt", "a", "surge"] },
+  { group: "body cue", tokens: ["felt", "a", "profound", "sense"] },
+  { group: "body cue", tokens: ["ghost", "of", "a", "smile"] },
+  { group: "body cue", tokens: ["mischievous", "glint"] },
+  { group: "body cue", tokens: ["dangerous", "glint"] },
   { group: "body cue", tokens: ["took", "a", "deep", "breath"] },
   { group: "body cue", tokens: ["let", "out", "a", "breath"] },
+  {
+    group: "body cue",
+    tokens: ["breath", "she", "didn't", "know", "she", "was", "holding"]
+  },
+  {
+    group: "body cue",
+    tokens: ["breath", "he", "didn't", "know", "he", "was", "holding"]
+  },
+  {
+    group: "body cue",
+    tokens: ["breath", "they", "didn't", "know", "they", "were", "holding"]
+  },
   { group: "body cue", tokens: ["voice", "was", "low"] },
   { group: "body cue", tokens: ["smile", "played", "on", "her", "lips"] },
   { group: "body cue", tokens: ["smile", "played", "on", "his", "lips"] },
   { group: "body cue", tokens: ["smile", "played", "on", "their", "lips"] },
+  { group: "body cue", tokens: ["smile", "spread", "across", "her", "face"] },
+  { group: "body cue", tokens: ["smile", "spread", "across", "his", "face"] },
+  { group: "body cue", tokens: ["smile", "spread", "across", "their", "face"] },
+  {
+    group: "body cue",
+    tokens: ["smile", "spreading", "across", "her", "face"]
+  },
+  {
+    group: "body cue",
+    tokens: ["smile", "spreading", "across", "his", "face"]
+  },
+  {
+    group: "body cue",
+    tokens: ["smile", "spreading", "across", "their", "face"]
+  },
   { group: "body cue", tokens: ["looked", "tired"] },
   { group: "body cue", tokens: ["ears", "twitched"] },
   { group: "body cue", tokens: ["ears", "flattened"] },

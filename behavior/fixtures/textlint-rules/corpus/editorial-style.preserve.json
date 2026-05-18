@@ -2024,6 +2024,83 @@
       "bucket": "no-hits",
       "source": "cases/orthography/no-hits.md",
       "line": 53
+    },
+    {
+      "text": "The post explains the change by means of a vague diagram.",
+      "family": "phrases",
+      "bucket": "hits",
+      "source": "cases/phrases/hits.md",
+      "line": 329
+    },
+    {
+      "text": "The update repeats a number of unsupported benefits.",
+      "family": "phrases",
+      "bucket": "hits",
+      "source": "cases/phrases/hits.md",
+      "line": 331
+    },
+    {
+      "text": "The contract calls the refund an absolute guarantee.",
+      "family": "phrases",
+      "bucket": "hits",
+      "source": "cases/phrases/hits.md",
+      "line": 333
+    },
+    {
+      "text": "The memo says a second review is absolutely essential.",
+      "family": "phrases",
+      "bucket": "hits",
+      "source": "cases/phrases/hits.md",
+      "line": 335
+    },
+    {
+      "text": "The campaign promises an added bonus after signup.",
+      "family": "phrases",
+      "bucket": "hits",
+      "source": "cases/phrases/hits.md",
+      "line": 337
+    },
+    {
+      "text": "The team calls the prelaunch meeting advance planning.",
+      "family": "phrases",
+      "bucket": "hits",
+      "source": "cases/phrases/hits.md",
+      "line": 339
+    },
+    {
+      "text": "The note calls the backup an alternative choice.",
+      "family": "phrases",
+      "bucket": "hits",
+      "source": "cases/phrases/hits.md",
+      "line": 341
+    },
+    {
+      "text": "The report opens with a brief summary.",
+      "family": "phrases",
+      "bucket": "hits",
+      "source": "cases/phrases/hits.md",
+      "line": 343
+    },
+    {
+      "text": "The draft says the test will completely annihilate the backlog.",
+      "family": "phrases",
+      "bucket": "hits",
+      "source": "cases/phrases/hits.md",
+      "line": 345
+    },
+    {
+      "text": "The editor quoted \"added bonus\" as a redundancy example.",
+      "family": "phrases",
+      "bucket": "no-hits",
+      "source": "cases/phrases/no-hits.md",
+      "line": 89
+    },
+    {
+      "text": "The report says the guarantee is absolute after legal review.",
+      "family": "phrases",
+      "bucket": "no-hits",
+      "source": "cases/phrases/no-hits.md",
+      "line": 91
     }
   ]
 }

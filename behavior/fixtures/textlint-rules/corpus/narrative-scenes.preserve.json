@@ -1177,6 +1177,62 @@
       "bucket": "no-hits",
       "source": "cases/syntactic-patterns/no-hits.md",
       "line": 117
+    },
+    {
+      "text": "Little did she know, the map had already changed.",
+      "family": "narrative-slop",
+      "bucket": "hits",
+      "source": "cases/narrative-slop/hits.md",
+      "line": 47
+    },
+    {
+      "text": "Unbeknownst to him, the signal had failed before dawn.",
+      "family": "narrative-slop",
+      "bucket": "hits",
+      "source": "cases/narrative-slop/hits.md",
+      "line": 49
+    },
+    {
+      "text": "Maybe, just maybe, the alley would stay quiet.",
+      "family": "narrative-slop",
+      "bucket": "hits",
+      "source": "cases/narrative-slop/hits.md",
+      "line": 51
+    },
+    {
+      "text": "For what seemed like an eternity, the room stayed silent.",
+      "family": "narrative-slop",
+      "bucket": "hits",
+      "source": "cases/narrative-slop/hits.md",
+      "line": 53
+    },
+    {
+      "text": "Cassia could not help but feel the alley watching. Her eyes never leaving the shuttered door, she felt a surge of panic.",
+      "family": "narrative-slop",
+      "bucket": "hits",
+      "source": "cases/narrative-slop/hits.md",
+      "line": 55
+    },
+    {
+      "text": "Arden couldn't shake the feeling that the mark had moved. A ghost of a smile crossed the guard's face. A dangerous glint flashed in his eyes.",
+      "family": "narrative-slop",
+      "bucket": "hits",
+      "source": "cases/narrative-slop/hits.md",
+      "line": 57
+    },
+    {
+      "text": "The report says the phrase \"little did she know\" is a narrative cliche.",
+      "family": "narrative-slop",
+      "bucket": "no-hits",
+      "source": "cases/narrative-slop/no-hits.md",
+      "line": 55
+    },
+    {
+      "text": "The medic could not help but feel the pulse under the bandage.",
+      "family": "narrative-slop",
+      "bucket": "no-hits",
+      "source": "cases/narrative-slop/no-hits.md",
+      "line": 57
     }
   ]
 }

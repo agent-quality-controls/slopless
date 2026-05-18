@@ -85,3 +85,7 @@ The crews pooled water behind the temporary dam.
 The candidate has legal capacity under the statute.
 
 The board scheduled a formal review for May.
+
+The editor quoted "added bonus" as a redundancy example.
+
+The report says the guarantee is absolute after legal review.

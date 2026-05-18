@@ -1,11 +1,11 @@
 {
   "suite": "textlint-rules",
   "kind": "approved",
-  "run_id": "2026-05-18T15-25-05.551944Z-f3c41e06",
-  "run_commit": "aa442aa",
+  "run_id": "2026-05-18T16-01-12.848736Z-f3c41e06",
+  "run_commit": "6d4b590",
   "working_tree": "dirty",
-  "recorded_at": "2026-05-18T15:25:05.551944Z",
-  "fixture_hash": "sha256:f1cce5a1376b54a905a44b14e23c49afb92c2235dd3e950a486b4697e56e3971",
+  "recorded_at": "2026-05-18T16:01:12.848736Z",
+  "fixture_hash": "sha256:38a4d809a76929ce52b8a2e6af1f699dbb85bba1d4e8bf9ec9f9a182815fd71e",
   "manifest_hash": "sha256:f3c41e06f4c33e3b21fa87bec32cd48f42af6c1064c3e6ae7d226d744fdbe350",
   "tool_version": "0.1.8",
   "output_schema_version": "1",
@@ -32,11 +32,11 @@
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/narrative-slop/hits.md",
-      "sha256": "sha256:5add178fdd76fbda5114ab955dcd54674a2256f24069d75b221dfa5b933ea63c"
+      "sha256": "sha256:075d000773512d9183adb4286b050e9bb124065b1390f1f9a3fc61f18554d7c7"
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/narrative-slop/no-hits.md",
-      "sha256": "sha256:d9c77785d29a5b7d5227542c85f4fe12a077bad969fbb045d9580c5ca084143d"
+      "sha256": "sha256:8b788b04356adb25c3e931708cf4abd430ffb58abf6803b7de1327d9350a1b78"
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/no-signal/no-hits.md",
@@ -52,11 +52,11 @@
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/phrases/hits.md",
-      "sha256": "sha256:237860b238c8a92cb855dfbba5051860f5710dcb3243176b186ee20bf2adbd64"
+      "sha256": "sha256:f57e22bb8abfceea91a698f39cf940ca6dfcc7e67930128b42913329a0edad3c"
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/phrases/no-hits.md",
-      "sha256": "sha256:3ef4a8c178b2bbddcab56636375ebbb812cb072f8ebe3a0036b2d71b9b2e2a96"
+      "sha256": "sha256:a69b5bda977c9c24d9f8958a4b637f0e85e18f38f48f4f8ae46028444d81a760"
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/semantic-thinness/hits.md",
@@ -92,7 +92,7 @@
     },
     {
       "path": "behavior/fixtures/textlint-rules/corpus/editorial-style.md",
-      "sha256": "sha256:3a71409d3fb80ca5ac8e8271369ee507a2cda31be37c1c8310c2a5bfcc15c5ab"
+      "sha256": "sha256:a4ef8102b94636c430871190e0184d5c977a1d5d4eb14ad4c0969342d5869818"
     },
     {
       "path": "behavior/fixtures/textlint-rules/corpus/engineering-review.md",
@@ -108,12 +108,12 @@
     },
     {
       "path": "behavior/fixtures/textlint-rules/corpus/narrative-scenes.md",
-      "sha256": "sha256:b5107f9116cd502fe770a4259f63d67a86154179eb60f362e57beac36cbdfc54"
+      "sha256": "sha256:3250ede199d68bb0c0924cd26f1f6ecc35fb22b0f0ebe297213c180eba16a3a9"
     },
     {
       "path": "behavior/fixtures/textlint-rules/corpus/technical-terminology.md",
       "sha256": "sha256:e56e6ed5b1d94558aecd64c1844affcea9a6e6b7189ece747581949b27d3a870"
     }
   ],
-  "comment": "approve artifact placeholder and puffery coverage"
+  "comment": "wordiness redundancy narrative expansion"
 }

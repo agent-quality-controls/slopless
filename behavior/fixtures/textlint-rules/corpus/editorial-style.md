@@ -164,6 +164,28 @@ The campaign calls the offer very unique without explaining what changed.
 
 As a language model, I do not have access to real-time information.
 
+The post explains the change by means of a vague diagram.
+
+The update repeats a number of unsupported benefits.
+
+The contract calls the refund an absolute guarantee.
+
+The memo says a second review is absolutely essential.
+
+The campaign promises an added bonus after signup.
+
+The team calls the prelaunch meeting advance planning.
+
+The note calls the backup an alternative choice.
+
+The report opens with a brief summary.
+
+The draft says the test will completely annihilate the backlog.
+
+The editor quoted "added bonus" as a redundancy example.
+
+The report says the guarantee is absolute after legal review.
+
 The key takeaways changed after the data review.
 
 The test fixture contains "as a language model" as quoted sample text.

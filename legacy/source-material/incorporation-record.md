@@ -309,6 +309,72 @@ Active source candidates stay in `legacy/source-material/derived/*.md`. Reviewed
 - False-positive controls:
   - no-hit controls cover named people, dates, numeric benchmark evidence, and quoted usage discussion
 
+### Wordiness And Redundancy Expansion From 2026-05-18 Research
+
+- Source:
+  - `legacy/source-material/expansion-2026-05-18/rule-libraries/derived/high-confidence-candidates.json`
+- Archive record:
+  - `legacy/source-material/expansion-2026-05-18/implemented/2026-05-18-wordiness-and-narrative-expansion.md`
+- Rules:
+  - `src/rules/phrases/wordiness.ts`
+  - `src/rules/phrases/redundancy.ts`
+- Rule data:
+  - `src/rules/phrases/data/wordiness-patterns.json`
+  - `src/rules/phrases/data/redundancy-patterns.json`
+- Implemented as:
+  - exact multiword phrase additions
+- Pattern examples:
+  - `by means of`
+  - `a number of`
+  - `absolute guarantee`
+  - `absolutely essential`
+  - `added bonus`
+  - `advance planning`
+  - `alternative choice`
+  - `brief summary`
+  - `completely annihilate`
+- Local changes:
+  - skipped broad one-word replacements such as `methodology` and `functionality`
+  - kept already covered candidates such as `utilize`, `leverage`, `due to the fact that`, and `close proximity` in their existing rule families
+- False-positive controls:
+  - quoted examples are skipped by the phrase matcher
+  - no-hit fixtures include quoted redundancy examples and non-redundant syntax
+
+### Narrative Slop Expansion From 2026-05-18 Research
+
+- Source:
+  - `legacy/source-material/expansion-2026-05-18/ai-slop/derived/high-confidence-deterministic-candidates.json`
+  - `legacy/source-material/expansion-2026-05-18/ai-slop/raw/llm-slop-detector/fiction.json`
+  - `legacy/source-material/expansion-2026-05-18/ai-slop/raw/slopsquid/trigrams.json`
+- Archive record:
+  - `legacy/source-material/expansion-2026-05-18/implemented/2026-05-18-wordiness-and-narrative-expansion.md`
+- Rules:
+  - `src/rules/narrative-slop/body-action-density.ts`
+  - `src/rules/narrative-slop/narrative-cliches.ts`
+- Rule data:
+  - `src/rules/narrative-slop/data/narrative-cliches.json`
+- Implemented as:
+  - density-gated body cue phrases
+  - narrow one-to-one narrative cliche templates
+- Pattern examples:
+  - `could not help but feel`
+  - `couldn't shake the feeling`
+  - `eyes never leaving`
+  - `felt a surge`
+  - `ghost of a smile`
+  - `dangerous glint`
+  - `little did {pronoun} know`
+  - `unbeknownst to {objectPronoun}`
+  - `maybe just maybe`
+  - `for what {seeming} like {longTime}`
+- Local changes:
+  - kept ordinary breath, gaze, smile, and feeling cues density-gated instead of single-hit reports
+  - implemented only strongly formulaic foreshadowing and time-passage frames as one-to-one narrative cliches
+- False-positive controls:
+  - density rules require repeated body-cue hits in a short span
+  - narrative cliche matcher skips quoted phrase examples
+  - no-hit fixtures include medical and task-bound uses
+
 ## Implemented Source-Derived Pattern Data
 
 - Wordiness:
