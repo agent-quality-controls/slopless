@@ -995,3 +995,7 @@ Many believe the platform is known for changing how work happens.
 Several important factors shaped the final outcome.
 
 Various areas created meaningful impact across the organization.
+
+What helped more:
+
+That does not mean engagement is useless. It means the post has to contain source material worth retrieving.

@@ -38,11 +38,31 @@ The boring fix is often the right one.
 
 The boring fix is often the right one when raw HTML lacks revenue-critical copy.
 
+The boring plan is often the right one.
+
+The boring report is final because the review board signed it.
+
 Put revenue-critical copy in raw HTML, expose key links before hydration, make structured data match visible content, and validate source HTML against the browser view.
 
 Engagement still matters for humans.
 
 It means the post has to contain source material worth retrieving.
+
+That does not mean engagement is useless.
+
+That does not mean engagement is useless. It means the post has to contain source material worth retrieving.
+
+That does not mean engagement is useless because renewal fell by 14 percent.
+
+That does not mean engagement is useless because the cohort report measured renewal separately.
+
+It means the parser has to map offsets before reporting.
+
+What helped more:
+
+What helped more than the first patch was replacing the cache key.
+
+That is the kind of issue a technical audit should catch before the team writes another 20 pages.
 
 The second one is less glamorous.
 

@@ -12,6 +12,9 @@
     "{deicticSubject} {summaryVerb} the {summaryNoun}.",
     "{deicticSubject} {summaryVerb} the {evaluativeAdjective} {summaryNoun}.",
     "{deicticSubject} {meaningVerb} {summaryNoun}.",
+    "{deicticSubject} {meaningVerb} {abstractSubject} {linkingVerb} {weakJudgment}.",
+    "{deicticSubject} means the {artifactNoun} has to {thinObligation}.",
+    "{deicticSubject} means the {artifactNoun} has to contain {abstractObject} worth {abstractGerund}.",
     "{deicticSubject} {linkingVerb} the kind of {summaryNoun}.",
     "{deicticSubject} {linkingVerb} the type of {summaryNoun}.",
     "{deicticSubject} {linkingVerb} where {abstractSubject} {abstractVerb}.",
@@ -72,6 +75,41 @@
       "maps cleanly to"
     ],
     "meaningVerb": ["means", "meant", "does not mean", "doesn't mean"],
+    "weakJudgment": [
+      "useless",
+      "useful",
+      "simple",
+      "enough",
+      "wrong",
+      "right",
+      "dead",
+      "alive"
+    ],
+    "artifactNoun": [
+      "article",
+      "content",
+      "draft",
+      "page",
+      "post",
+      "report",
+      "source"
+    ],
+    "thinObligation": [
+      "be useful",
+      "stand alone",
+      "carry the answer",
+      "contain the signal",
+      "contain the useful part"
+    ],
+    "abstractObject": [
+      "source material",
+      "evidence",
+      "detail",
+      "context",
+      "substance",
+      "signal"
+    ],
+    "abstractGerund": ["retrieving", "citing", "sharing", "remembering"],
     "genericAudience": [
       "nobody",
       "people",
@@ -103,6 +141,9 @@
       "progress",
       "trust",
       "clarity",
+      "content",
+      "engagement",
+      "source material",
       "the work",
       "the shift",
       "the lesson",

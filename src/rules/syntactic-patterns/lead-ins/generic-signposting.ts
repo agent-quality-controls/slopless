@@ -205,6 +205,15 @@ function matchWhatFrame(words: readonly string[]): string | undefined {
     return "what-matters-most";
   }
 
+  if (
+    words.length === 3 &&
+    first === "what" &&
+    (second === "helped" || second === "worked" || second === "changed") &&
+    (third === "more" || third === "most")
+  ) {
+    return `what-${second}-${third}`;
+  }
+
   return undefined;
 }
 

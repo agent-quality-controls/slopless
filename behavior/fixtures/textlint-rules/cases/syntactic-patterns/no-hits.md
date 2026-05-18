@@ -143,3 +143,7 @@ Many believe the platform is known for the 2025 accessibility audit.
 Seven supplier delays shaped the final outcome.
 
 Several important factors, including late customs paperwork and a missing invoice, shaped the final outcome.
+
+What helped more than the first patch was replacing the cache key.
+
+That does not mean engagement is useless because the cohort report measured renewal separately.

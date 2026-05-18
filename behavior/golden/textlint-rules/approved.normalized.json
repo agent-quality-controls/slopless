@@ -7093,6 +7093,29 @@
       },
       {
         "column": 1,
+        "index": 3252,
+        "line": 113,
+        "loc": {
+          "end": {
+            "column": 56,
+            "line": 113
+          },
+          "start": {
+            "column": 1,
+            "line": 113
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: the {thinModifier} {summaryNoun} {linkingVerb} {weakJudgment}.",
+        "range": [
+          3252,
+          3307
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
         "index": 3309,
         "line": 115,
         "loc": {
@@ -28254,7 +28277,7 @@
             "line": 141
           }
         },
-        "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: {summarySubject} {linkingVerb} {weakJudgment}.",
+        "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: the {thinModifier} {summaryNoun} {linkingVerb} {weakJudgment}.",
         "range": [
           2585,
           2623
@@ -28304,6 +28327,98 @@
         "range": [
           2660,
           2715
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 2717,
+        "line": 147,
+        "loc": {
+          "end": {
+            "column": 40,
+            "line": 147
+          },
+          "start": {
+            "column": 1,
+            "line": 147
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: the {thinModifier} {summaryNoun} {linkingVerb} {weakJudgment}.",
+        "range": [
+          2717,
+          2756
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 2758,
+        "line": 149,
+        "loc": {
+          "end": {
+            "column": 98,
+            "line": 149
+          },
+          "start": {
+            "column": 1,
+            "line": 149
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticSubject} {linkingVerb} the kind of {summaryNoun}.",
+        "range": [
+          2758,
+          2855
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 2857,
+        "line": 151,
+        "loc": {
+          "end": {
+            "column": 42,
+            "line": 151
+          },
+          "start": {
+            "column": 1,
+            "line": 151
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticSubject} {meaningVerb} {abstractSubject} {linkingVerb} {weakJudgment}.",
+        "range": [
+          2857,
+          2898
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 2900,
+        "line": 153,
+        "loc": {
+          "end": {
+            "column": 67,
+            "line": 153
+          },
+          "start": {
+            "column": 1,
+            "line": 153
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticSubject} means the {artifactNoun} has to contain {abstractObject} worth {abstractGerund}.",
+        "range": [
+          2900,
+          2966
         ],
         "ruleId": "semantic-thinness",
         "severity": 2,
@@ -29599,6 +29714,29 @@
           2532
         ],
         "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 2477,
+        "line": 95,
+        "loc": {
+          "end": {
+            "column": 56,
+            "line": 95
+          },
+          "start": {
+            "column": 1,
+            "line": 95
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: the {thinModifier} {summaryNoun} {linkingVerb} {weakJudgment}.",
+        "range": [
+          2477,
+          2532
+        ],
+        "ruleId": "semantic-thinness",
         "severity": 2,
         "type": "lint"
       },
@@ -42688,6 +42826,98 @@
         "ruleId": "universalizing-claims",
         "severity": 2,
         "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 47516,
+        "line": 999,
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 999
+          },
+          "start": {
+            "column": 1,
+            "line": 999
+          }
+        },
+        "message": "Generic signposting found: what-helped-more. Replace the frame with the concrete claim.",
+        "range": [
+          47516,
+          47533
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 47535,
+        "line": 1001,
+        "loc": {
+          "end": {
+            "column": 42,
+            "line": 1001
+          },
+          "start": {
+            "column": 1,
+            "line": 1001
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticSubject} {meaningVerb} {abstractSubject} {linkingVerb} {weakJudgment}.",
+        "range": [
+          47535,
+          47576
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 47535,
+        "line": 1001,
+        "loc": {
+          "end": {
+            "column": 109,
+            "line": 1001
+          },
+          "start": {
+            "column": 1,
+            "line": 1001
+          }
+        },
+        "message": "Negation reframe found: \"That does not mean engagement is useless. It means the post has to contain source material worth retrieving.\". Rewrite without the not-X-then-Y construction.",
+        "range": [
+          47535,
+          47643
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 43,
+        "index": 47577,
+        "line": 1001,
+        "loc": {
+          "end": {
+            "column": 109,
+            "line": 1001
+          },
+          "start": {
+            "column": 43,
+            "line": 1001
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticSubject} means the {artifactNoun} has to contain {abstractObject} worth {abstractGerund}.",
+        "range": [
+          47577,
+          47643
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
       }
     ]
   },
@@ -43419,29 +43649,6 @@
     "messages": [
       {
         "column": 1,
-        "index": 0,
-        "line": 1,
-        "loc": {
-          "end": {
-            "column": 2,
-            "line": 1
-          },
-          "start": {
-            "column": 1,
-            "line": 1
-          }
-        },
-        "message": "Flesch Reading Ease is 59.72. Keep it at 61 or higher.",
-        "range": [
-          0,
-          1
-        ],
-        "ruleId": "flesch-kincaid",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
         "index": 155,
         "line": 7,
         "loc": {
@@ -43592,7 +43799,7 @@
             "line": 37
           }
         },
-        "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: {summarySubject} {linkingVerb} {weakJudgment}.",
+        "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: the {thinModifier} {summaryNoun} {linkingVerb} {weakJudgment}.",
         "range": [
           1227,
           1265
@@ -43603,22 +43810,22 @@
       },
       {
         "column": 1,
-        "index": 1625,
-        "line": 47,
+        "index": 1349,
+        "line": 41,
         "loc": {
           "end": {
-            "column": 34,
-            "line": 47
+            "column": 40,
+            "line": 41
           },
           "start": {
             "column": 1,
-            "line": 47
+            "line": 41
           }
         },
-        "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: {summarySubject} {linkingVerb} {weakJudgment}.",
+        "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: the {thinModifier} {summaryNoun} {linkingVerb} {weakJudgment}.",
         "range": [
-          1625,
-          1658
+          1349,
+          1388
         ],
         "ruleId": "semantic-thinness",
         "severity": 2,
@@ -43626,11 +43833,11 @@
       },
       {
         "column": 1,
-        "index": 1660,
+        "index": 1662,
         "line": 49,
         "loc": {
           "end": {
-            "column": 56,
+            "column": 67,
             "line": 49
           },
           "start": {
@@ -43638,10 +43845,194 @@
             "line": 49
           }
         },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticSubject} means the {artifactNoun} has to contain {abstractObject} worth {abstractGerund}.",
+        "range": [
+          1662,
+          1728
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 1730,
+        "line": 51,
+        "loc": {
+          "end": {
+            "column": 42,
+            "line": 51
+          },
+          "start": {
+            "column": 1,
+            "line": 51
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticSubject} {meaningVerb} {abstractSubject} {linkingVerb} {weakJudgment}.",
+        "range": [
+          1730,
+          1771
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 1773,
+        "line": 53,
+        "loc": {
+          "end": {
+            "column": 42,
+            "line": 53
+          },
+          "start": {
+            "column": 1,
+            "line": 53
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticSubject} {meaningVerb} {abstractSubject} {linkingVerb} {weakJudgment}.",
+        "range": [
+          1773,
+          1814
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 1773,
+        "line": 53,
+        "loc": {
+          "end": {
+            "column": 109,
+            "line": 53
+          },
+          "start": {
+            "column": 1,
+            "line": 53
+          }
+        },
+        "message": "Negation reframe found: \"That does not mean engagement is useless. It means the post has to contain source material worth retrieving.\". Rewrite without the not-X-then-Y construction.",
+        "range": [
+          1773,
+          1881
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 43,
+        "index": 1815,
+        "line": 53,
+        "loc": {
+          "end": {
+            "column": 109,
+            "line": 53
+          },
+          "start": {
+            "column": 43,
+            "line": 53
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticSubject} means the {artifactNoun} has to contain {abstractObject} worth {abstractGerund}.",
+        "range": [
+          1815,
+          1881
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 2116,
+        "line": 61,
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 61
+          },
+          "start": {
+            "column": 1,
+            "line": 61
+          }
+        },
+        "message": "Generic signposting found: what-helped-more. Replace the frame with the concrete claim.",
+        "range": [
+          2116,
+          2133
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 2203,
+        "line": 65,
+        "loc": {
+          "end": {
+            "column": 98,
+            "line": 65
+          },
+          "start": {
+            "column": 1,
+            "line": 65
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticSubject} {linkingVerb} the kind of {summaryNoun}.",
+        "range": [
+          2203,
+          2300
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 2302,
+        "line": 67,
+        "loc": {
+          "end": {
+            "column": 34,
+            "line": 67
+          },
+          "start": {
+            "column": 1,
+            "line": 67
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: {summarySubject} {linkingVerb} {weakJudgment}.",
+        "range": [
+          2302,
+          2335
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 2337,
+        "line": 69,
+        "loc": {
+          "end": {
+            "column": 56,
+            "line": 69
+          },
+          "start": {
+            "column": 1,
+            "line": 69
+          }
+        },
         "message": "Semantic thinness (puffery-evaluative-claim): Catch evaluative praise frames that assert prestige, breakthrough value, or greatness without naming concrete evidence. Matched template: {abstractPersonifiedSubject} has a poor {businessMetric} in {businessDomain}.",
         "range": [
-          1660,
-          1715
+          2337,
+          2392
         ],
         "ruleId": "semantic-thinness",
         "severity": 2,

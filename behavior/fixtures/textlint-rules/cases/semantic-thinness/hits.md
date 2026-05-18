@@ -143,3 +143,11 @@ The boring fix is often the right one.
 The second one is less glamorous.
 
 Glamour has a poor conversion rate in technical audits.
+
+The boring plan is often the right one.
+
+That is the kind of issue a technical audit should catch before the team writes another 20 pages.
+
+That does not mean engagement is useless.
+
+It means the post has to contain source material worth retrieving.

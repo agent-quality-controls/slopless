@@ -107,3 +107,9 @@ The missing layer is page judgment: service pages get reviewed before archive pa
 That changes the whole report because the crawler cannot see the service copy.
 
 The boring fix is often the right one when raw HTML lacks revenue-critical copy.
+
+The boring report is final because the review board signed it.
+
+That does not mean engagement is useless because renewal fell by 14 percent.
+
+It means the parser has to map offsets before reporting.

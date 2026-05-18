@@ -59,6 +59,48 @@
       "line": 145
     },
     {
+      "text": "The boring plan is often the right one.",
+      "family": "semantic-thinness",
+      "bucket": "hits",
+      "source": "cases/semantic-thinness/hits.md",
+      "line": 147
+    },
+    {
+      "text": "That is the kind of issue a technical audit should catch before the team writes another 20 pages.",
+      "family": "semantic-thinness",
+      "bucket": "hits",
+      "source": "cases/semantic-thinness/hits.md",
+      "line": 149
+    },
+    {
+      "text": "That does not mean engagement is useless.",
+      "family": "semantic-thinness",
+      "bucket": "hits",
+      "source": "cases/semantic-thinness/hits.md",
+      "line": 151
+    },
+    {
+      "text": "It means the post has to contain source material worth retrieving.",
+      "family": "semantic-thinness",
+      "bucket": "hits",
+      "source": "cases/semantic-thinness/hits.md",
+      "line": 153
+    },
+    {
+      "text": "What helped more:",
+      "family": "syntactic-patterns",
+      "bucket": "hits",
+      "source": "cases/syntactic-patterns/hits.md",
+      "line": 999
+    },
+    {
+      "text": "That does not mean engagement is useless. It means the post has to contain source material worth retrieving.",
+      "family": "syntactic-patterns",
+      "bucket": "hits",
+      "source": "cases/syntactic-patterns/hits.md",
+      "line": 1001
+    },
+    {
       "text": "The problem is simple: GPTBot received the raw HTML shell before hydration.",
       "family": "semantic-thinness",
       "bucket": "no-hits",
@@ -99,6 +141,41 @@
       "bucket": "no-hits",
       "source": "cases/semantic-thinness/no-hits.md",
       "line": 109
+    },
+    {
+      "text": "The boring report is final because the review board signed it.",
+      "family": "semantic-thinness",
+      "bucket": "no-hits",
+      "source": "cases/semantic-thinness/no-hits.md",
+      "line": 111
+    },
+    {
+      "text": "That does not mean engagement is useless because renewal fell by 14 percent.",
+      "family": "semantic-thinness",
+      "bucket": "no-hits",
+      "source": "cases/semantic-thinness/no-hits.md",
+      "line": 113
+    },
+    {
+      "text": "It means the parser has to map offsets before reporting.",
+      "family": "semantic-thinness",
+      "bucket": "no-hits",
+      "source": "cases/semantic-thinness/no-hits.md",
+      "line": 115
+    },
+    {
+      "text": "What helped more than the first patch was replacing the cache key.",
+      "family": "syntactic-patterns",
+      "bucket": "no-hits",
+      "source": "cases/syntactic-patterns/no-hits.md",
+      "line": 147
+    },
+    {
+      "text": "That does not mean engagement is useless because the cohort report measured renewal separately.",
+      "family": "syntactic-patterns",
+      "bucket": "no-hits",
+      "source": "cases/syntactic-patterns/no-hits.md",
+      "line": 149
     }
   ]
 }

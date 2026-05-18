@@ -1,11 +1,11 @@
 {
   "suite": "textlint-rules",
   "kind": "approved",
-  "run_id": "2026-05-18T18-37-39.070936Z-f3c41e06",
-  "run_commit": "e0e12e0",
+  "run_id": "2026-05-18T19-21-49.201469Z-f3c41e06",
+  "run_commit": "38f8aff",
   "working_tree": "dirty",
-  "recorded_at": "2026-05-18T18:37:39.070936Z",
-  "fixture_hash": "sha256:85b7f086994106313ac14e572e5916d454d34f6663ecac01e6d3f39d402e771e",
+  "recorded_at": "2026-05-18T19:21:49.201469Z",
+  "fixture_hash": "sha256:de537645c93e5be71014ab275ef13f923794eff228ee78878e684f5da4bb7652",
   "manifest_hash": "sha256:f3c41e06f4c33e3b21fa87bec32cd48f42af6c1064c3e6ae7d226d744fdbe350",
   "tool_version": "0.1.8",
   "output_schema_version": "1",
@@ -60,19 +60,19 @@
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/semantic-thinness/hits.md",
-      "sha256": "sha256:7954114280b1be4e043721abdac5974f1bf1c3955bc04b4da4cf098a9daf38b6"
+      "sha256": "sha256:482501a7712b77ce5209012c8ba087aea8ae83c70a251b4fa68f3573ced732a7"
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/semantic-thinness/no-hits.md",
-      "sha256": "sha256:ceff4a67691e9c6c4c2a33ff8d5d1b3e2d3972ecc92359e145f4ed7efb50967d"
+      "sha256": "sha256:8ab364046bb47e60f160487de8c6eafc9b461a030cfd3a011a731a33902d6dd4"
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/syntactic-patterns/hits.md",
-      "sha256": "sha256:d3d12ce404c52ef5697e55915e63a829f3d78b8697ac0d34ed58d47dc565db3a"
+      "sha256": "sha256:11e26af6f4f7132777edc58970c309924e3027478d4c0209ad6e0c46b6b9829a"
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/syntactic-patterns/no-hits.md",
-      "sha256": "sha256:071a851eac190854c74b53bee5e4496f1308115aebee3250009880a00bfc4d33"
+      "sha256": "sha256:d47f6b7cf7083c3b833d097a15c246a1ba9e11cd1782da934c02dc32dc3a9c75"
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/term-policy/hits.md",
@@ -104,7 +104,7 @@
     },
     {
       "path": "behavior/fixtures/textlint-rules/corpus/linkedin-ai-search.md",
-      "sha256": "sha256:bda03c5dd2a3f506f257cc435301b994edd7a95eacd16e254bb7a2fd23ad67d3"
+      "sha256": "sha256:603965ab5038afec8c780686fcd7eeac150e36011132fbc7304fadec26618c42"
     },
     {
       "path": "behavior/fixtures/textlint-rules/corpus/metrics-and-markdown.md",
@@ -119,5 +119,5 @@
       "sha256": "sha256:e56e6ed5b1d94558aecd64c1844affcea9a6e6b7189ece747581949b27d3a870"
     }
   ],
-  "comment": "Add LinkedIn semantic thinness corpus coverage"
+  "comment": "Broaden business rhetoric frames"
 }

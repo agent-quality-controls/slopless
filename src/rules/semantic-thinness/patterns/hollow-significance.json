@@ -7,6 +7,8 @@
   "templates": [
     "{deicticSubject} {significanceVerb} {intensifier}.",
     "{summarySubject} {linkingVerb} {importanceComplement}.",
+    "the {thinModifier} {summaryNoun} {linkingVerb} {weakJudgment}.",
+    "the {thinModifier} {summaryNoun} {linkingVerb} not {weakJudgment}.",
     "{summarySubject} {linkingVerb} {weakJudgment}.",
     "{summarySubject} {linkingVerb} not {weakJudgment}.",
     "{summarySubject} {feelingVerb} {weakJudgment}.",
@@ -61,6 +63,32 @@
       "the glamorous work",
       "the second one",
       "the first one"
+    ],
+    "thinModifier": [
+      "boring",
+      "simple",
+      "obvious",
+      "practical",
+      "useful",
+      "honest",
+      "real",
+      "glamorous"
+    ],
+    "summaryNoun": [
+      "answer",
+      "audit",
+      "change",
+      "decision",
+      "fix",
+      "idea",
+      "move",
+      "option",
+      "plan",
+      "question",
+      "report",
+      "strategy",
+      "version",
+      "work"
     ],
     "significanceVerb": [
       "mattered",
