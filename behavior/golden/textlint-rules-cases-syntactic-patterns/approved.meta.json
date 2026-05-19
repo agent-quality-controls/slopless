@@ -1,23 +1,23 @@
 {
   "suite": "textlint-rules-cases-syntactic-patterns",
   "kind": "approved",
-  "run_id": "2026-05-19T18-50-17.224969Z-df22e59a",
-  "run_commit": "1356572",
+  "run_id": "2026-05-19T20-51-27.800793Z-df22e59a",
+  "run_commit": "b606f67",
   "working_tree": "dirty",
-  "recorded_at": "2026-05-19T18:50:17.224969Z",
-  "fixture_hash": "sha256:cf5f7daad4d5cf04deb257f98bb2ff78b76cb4a8287dbf0f85afab2404197908",
+  "recorded_at": "2026-05-19T20:51:27.800793Z",
+  "fixture_hash": "sha256:954edc5d0c103c4b2686a0fdf6ac78dbf0e8b2ab43067c6a561eab4b8d411a85",
   "manifest_hash": "sha256:df22e59a1c3af89660207e32169c1efa8b3064d02c7a4dc3f36d00ec8112a0ee",
   "tool_version": "0.1.8",
   "output_schema_version": "1",
   "fixtures": [
     {
       "path": "behavior/fixtures/textlint-rules/cases/syntactic-patterns/hits.md",
-      "sha256": "sha256:84f628d551f55531e71fccc0f3fa144c1b9d69aabc71cab79cd5b450ca27d4bf"
+      "sha256": "sha256:8c01296aeb78edbf051a6521c9261c994ffd9daaa5602c7aee5940f11ebad60c"
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/syntactic-patterns/no-hits.md",
-      "sha256": "sha256:4694d3da59f4d4dc0c6e8cf281381fb9fc557e7898614fc977cc0d74a7ddc155"
+      "sha256": "sha256:f6ed7f4f1f7418374906f38a14ed23920776facad03f2bad5282443eaadc437c"
     }
   ],
-  "comment": "Implement mined rule expansions except em dashes"
+  "comment": "Implement second fresh corpus expansions"
 }

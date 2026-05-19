@@ -6418,6 +6418,581 @@
         "ruleId": "prohibited-words",
         "severity": 2,
         "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 21916,
+        "line": 691,
+        "loc": {
+          "end": {
+            "column": 50,
+            "line": 691
+          },
+          "start": {
+            "column": 1,
+            "line": 691
+          }
+        },
+        "message": "Corporate-speak phrase found: \"Taken together, these signals tell a bigger story\". Replace it with specific wording.",
+        "range": [
+          21916,
+          21965
+        ],
+        "ruleId": "corporate-speak",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 21993,
+        "line": 693,
+        "loc": {
+          "end": {
+            "column": 67,
+            "line": 693
+          },
+          "start": {
+            "column": 1,
+            "line": 693
+          }
+        },
+        "message": "Corporate-speak phrase found: \"As we move forward, we must continue to center what makes us human\". Replace it with specific wording.",
+        "range": [
+          21993,
+          22059
+        ],
+        "ruleId": "corporate-speak",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 22062,
+        "line": 695,
+        "loc": {
+          "end": {
+            "column": 77,
+            "line": 695
+          },
+          "start": {
+            "column": 1,
+            "line": 695
+          }
+        },
+        "message": "Corporate-speak phrase found: \"Looking ahead, the next chapter will require courage, empathy, and execution\". Replace it with specific wording.",
+        "range": [
+          22062,
+          22138
+        ],
+        "ruleId": "corporate-speak",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 41,
+        "index": 22181,
+        "line": 697,
+        "loc": {
+          "end": {
+            "column": 68,
+            "line": 697
+          },
+          "start": {
+            "column": 41,
+            "line": 697
+          }
+        },
+        "message": "Corporate-speak phrase found: \"customer-centric innovation\". Replace it with specific wording.",
+        "range": [
+          22181,
+          22208
+        ],
+        "ruleId": "corporate-speak",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 22,
+        "index": 22232,
+        "line": 699,
+        "loc": {
+          "end": {
+            "column": 30,
+            "line": 699
+          },
+          "start": {
+            "column": 22,
+            "line": 699
+          }
+        },
+        "message": "Prohibited word found: \"seamless\". Rewrite without this term.",
+        "range": [
+          22232,
+          22240
+        ],
+        "ruleId": "prohibited-words",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 52,
+        "index": 22262,
+        "line": 699,
+        "loc": {
+          "end": {
+            "column": 81,
+            "line": 699
+          },
+          "start": {
+            "column": 52,
+            "line": 699
+          }
+        },
+        "message": "Corporate-speak phrase found: \"cross-functional stakeholders\". Replace it with specific wording.",
+        "range": [
+          22262,
+          22291
+        ],
+        "ruleId": "corporate-speak",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 19,
+        "index": 22312,
+        "line": 701,
+        "loc": {
+          "end": {
+            "column": 41,
+            "line": 701
+          },
+          "start": {
+            "column": 19,
+            "line": 701
+          }
+        },
+        "message": "Corporate-speak phrase found: \"best-in-class solution\". Replace it with specific wording.",
+        "range": [
+          22312,
+          22334
+        ],
+        "ruleId": "corporate-speak",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 46,
+        "index": 22339,
+        "line": 701,
+        "loc": {
+          "end": {
+            "column": 68,
+            "line": 701
+          },
+          "start": {
+            "column": 46,
+            "line": 701
+          }
+        },
+        "message": "Corporate-speak phrase found: \"next-generation growth\". Replace it with specific wording.",
+        "range": [
+          22339,
+          22361
+        ],
+        "ruleId": "corporate-speak",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 24,
+        "index": 22387,
+        "line": 703,
+        "loc": {
+          "end": {
+            "column": 56,
+            "line": 703
+          },
+          "start": {
+            "column": 24,
+            "line": 703
+          }
+        },
+        "message": "Corporate-speak phrase found: \"synergies across the value chain\". Replace it with specific wording.",
+        "range": [
+          22387,
+          22419
+        ],
+        "ruleId": "corporate-speak",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 12,
+        "index": 22433,
+        "line": 705,
+        "loc": {
+          "end": {
+            "column": 36,
+            "line": 705
+          },
+          "start": {
+            "column": 12,
+            "line": 705
+          }
+        },
+        "message": "Corporate-speak phrase found: \"operationalize learnings\". Replace it with specific wording.",
+        "range": [
+          22433,
+          22457
+        ],
+        "ruleId": "corporate-speak",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 54,
+        "index": 22535,
+        "line": 707,
+        "loc": {
+          "end": {
+            "column": 74,
+            "line": 707
+          },
+          "start": {
+            "column": 54,
+            "line": 707
+          }
+        },
+        "message": "Corporate-speak phrase found: \"north-star narrative\". Replace it with specific wording.",
+        "range": [
+          22535,
+          22555
+        ],
+        "ruleId": "corporate-speak",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 8,
+        "index": 22565,
+        "line": 709,
+        "loc": {
+          "end": {
+            "column": 23,
+            "line": 709
+          },
+          "start": {
+            "column": 8,
+            "line": 709
+          }
+        },
+        "message": "Corporate-speak phrase found: \"move the needle\". Replace it with specific wording.",
+        "range": [
+          22565,
+          22580
+        ],
+        "ruleId": "corporate-speak",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 23,
+        "index": 22636,
+        "line": 711,
+        "loc": {
+          "end": {
+            "column": 40,
+            "line": 711
+          },
+          "start": {
+            "column": 23,
+            "line": 711
+          }
+        },
+        "message": "Corporate-speak phrase found: \"flywheel of trust\". Replace it with specific wording.",
+        "range": [
+          22636,
+          22653
+        ],
+        "ruleId": "corporate-speak",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 12,
+        "index": 22702,
+        "line": 713,
+        "loc": {
+          "end": {
+            "column": 39,
+            "line": 713
+          },
+          "start": {
+            "column": 12,
+            "line": 713
+          }
+        },
+        "message": "Corporate-speak phrase found: \"future-proof the experience\". Replace it with specific wording.",
+        "range": [
+          22702,
+          22729
+        ],
+        "ruleId": "corporate-speak",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 48,
+        "index": 22738,
+        "line": 713,
+        "loc": {
+          "end": {
+            "column": 74,
+            "line": 713
+          },
+          "start": {
+            "column": 48,
+            "line": 713
+          }
+        },
+        "message": "Corporate-speak phrase found: \"AI-native customer journey\". Replace it with specific wording.",
+        "range": [
+          22738,
+          22764
+        ],
+        "ruleId": "corporate-speak",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 50,
+        "index": 22816,
+        "line": 715,
+        "loc": {
+          "end": {
+            "column": 72,
+            "line": 715
+          },
+          "start": {
+            "column": 50,
+            "line": 715
+          }
+        },
+        "message": "Corporate-speak phrase found: \"authentic storytelling\". Replace it with specific wording.",
+        "range": [
+          22816,
+          22838
+        ],
+        "ruleId": "corporate-speak",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 19,
+        "index": 23387,
+        "line": 733,
+        "loc": {
+          "end": {
+            "column": 93,
+            "line": 733
+          },
+          "start": {
+            "column": 19,
+            "line": 733
+          }
+        },
+        "message": "LLM vocabulary density: 5 stock abstraction words in a short span (intentional, authentic, scalable, unlock, impact).",
+        "range": [
+          23387,
+          23461
+        ],
+        "ruleId": "llm-vocabulary-density",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 69,
+        "index": 23437,
+        "line": 733,
+        "loc": {
+          "end": {
+            "column": 75,
+            "line": 733
+          },
+          "start": {
+            "column": 69,
+            "line": 733
+          }
+        },
+        "message": "Prohibited word found: \"unlock\". Rewrite without this term.",
+        "range": [
+          23437,
+          23443
+        ],
+        "ruleId": "prohibited-words",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 21,
+        "index": 23484,
+        "line": 735,
+        "loc": {
+          "end": {
+            "column": 50,
+            "line": 735
+          },
+          "start": {
+            "column": 21,
+            "line": 735
+          }
+        },
+        "message": "Corporate-speak phrase found: \"cross-functional stakeholders\". Replace it with specific wording.",
+        "range": [
+          23484,
+          23513
+        ],
+        "ruleId": "corporate-speak",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 38,
+        "index": 23501,
+        "line": 735,
+        "loc": {
+          "end": {
+            "column": 95,
+            "line": 735
+          },
+          "start": {
+            "column": 38,
+            "line": 735
+          }
+        },
+        "message": "LLM vocabulary density: 4 stock abstraction words in a short span (stakeholders, operationalize, learnings, value).",
+        "range": [
+          23501,
+          23558
+        ],
+        "ruleId": "llm-vocabulary-density",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 54,
+        "index": 23517,
+        "line": 735,
+        "loc": {
+          "end": {
+            "column": 78,
+            "line": 735
+          },
+          "start": {
+            "column": 54,
+            "line": 735
+          }
+        },
+        "message": "Corporate-speak phrase found: \"operationalize learnings\". Replace it with specific wording.",
+        "range": [
+          23517,
+          23541
+        ],
+        "ruleId": "corporate-speak",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 41,
+        "index": 23607,
+        "line": 737,
+        "loc": {
+          "end": {
+            "column": 89,
+            "line": 737
+          },
+          "start": {
+            "column": 41,
+            "line": 737
+          }
+        },
+        "message": "LLM vocabulary density: 5 stock abstraction words in a short span (next, generation, seamless, ai, native).",
+        "range": [
+          23607,
+          23655
+        ],
+        "ruleId": "llm-vocabulary-density",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 70,
+        "index": 23636,
+        "line": 737,
+        "loc": {
+          "end": {
+            "column": 78,
+            "line": 737
+          },
+          "start": {
+            "column": 70,
+            "line": 737
+          }
+        },
+        "message": "Prohibited word found: \"seamless\". Rewrite without this term.",
+        "range": [
+          23636,
+          23644
+        ],
+        "ruleId": "prohibited-words",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 36,
+        "index": 23707,
+        "line": 739,
+        "loc": {
+          "end": {
+            "column": 92,
+            "line": 739
+          },
+          "start": {
+            "column": 36,
+            "line": 739
+          }
+        },
+        "message": "LLM vocabulary density: 4 stock abstraction words in a short span (synergies, workflows, amplify, strategic).",
+        "range": [
+          23707,
+          23763
+        ],
+        "ruleId": "llm-vocabulary-density",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 14,
+        "index": 23789,
+        "line": 741,
+        "loc": {
+          "end": {
+            "column": 98,
+            "line": 741
+          },
+          "start": {
+            "column": 14,
+            "line": 741
+          }
+        },
+        "message": "LLM vocabulary density: 6 stock abstraction words in a short span (empowers, holistic, authentic, engagement, sustainable, transformation).",
+        "range": [
+          23789,
+          23873
+        ],
+        "ruleId": "llm-vocabulary-density",
+        "severity": 2,
+        "type": "lint"
       }
     ]
   }

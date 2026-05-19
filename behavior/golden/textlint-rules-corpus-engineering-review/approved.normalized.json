@@ -9155,6 +9155,1018 @@
         "ruleId": "semantic-thinness",
         "severity": 2,
         "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 36316,
+        "line": 903,
+        "loc": {
+          "end": {
+            "column": 78,
+            "line": 903
+          },
+          "start": {
+            "column": 1,
+            "line": 903
+          }
+        },
+        "message": "Semantic thinness (abstract-agency-personification): Catch abstract systems, rooms, strategies, and conversations treated as intentional actors instead of naming concrete behavior. Matched template: {abstractAgent} was {speechVerb} that {emptyInstitutionalClaim}.",
+        "range": [
+          36316,
+          36393
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 36395,
+        "line": 905,
+        "loc": {
+          "end": {
+            "column": 47,
+            "line": 905
+          },
+          "start": {
+            "column": 1,
+            "line": 905
+          }
+        },
+        "message": "Semantic thinness (abstract-agency-personification): Catch abstract systems, rooms, strategies, and conversations treated as intentional actors instead of naming concrete behavior. Matched template: {abstractAgent} was asking for {softAnswer}.",
+        "range": [
+          36395,
+          36441
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 36443,
+        "line": 907,
+        "loc": {
+          "end": {
+            "column": 67,
+            "line": 907
+          },
+          "start": {
+            "column": 1,
+            "line": 907
+          }
+        },
+        "message": "Semantic thinness (abstract-agency-personification): Catch abstract systems, rooms, strategies, and conversations treated as intentional actors instead of naming concrete behavior. Matched template: {abstractAgent} knew it needed to {identityChange}.",
+        "range": [
+          36443,
+          36509
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 36511,
+        "line": 909,
+        "loc": {
+          "end": {
+            "column": 67,
+            "line": 909
+          },
+          "start": {
+            "column": 1,
+            "line": 909
+          }
+        },
+        "message": "Semantic thinness (abstract-agency-personification): Catch abstract systems, rooms, strategies, and conversations treated as intentional actors instead of naming concrete behavior. Matched template: {abstractSilence} in {technicalSurface} said {emptyComparison}.",
+        "range": [
+          36511,
+          36577
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 36579,
+        "line": 911,
+        "loc": {
+          "end": {
+            "column": 81,
+            "line": 911
+          },
+          "start": {
+            "column": 1,
+            "line": 911
+          }
+        },
+        "message": "Demonstrative emphasis found: \"This is where everything begins to feel different, even before anything changes.\". Reduce repeated short emphasis lines.",
+        "range": [
+          36579,
+          36659
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 36579,
+        "line": 911,
+        "loc": {
+          "end": {
+            "column": 81,
+            "line": 911
+          },
+          "start": {
+            "column": 1,
+            "line": 911
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticSubject} {linkingVerb} where {abstractSubject} {abstractVerb}.",
+        "range": [
+          36579,
+          36659
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 36661,
+        "line": 913,
+        "loc": {
+          "end": {
+            "column": 82,
+            "line": 913
+          },
+          "start": {
+            "column": 1,
+            "line": 913
+          }
+        },
+        "message": "Semantic thinness (abstract-agency-personification): Catch abstract systems, rooms, strategies, and conversations treated as intentional actors instead of naming concrete behavior. Matched template: something opens when {softCondition}.",
+        "range": [
+          36661,
+          36742
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 36744,
+        "line": 915,
+        "loc": {
+          "end": {
+            "column": 78,
+            "line": 915
+          },
+          "start": {
+            "column": 1,
+            "line": 915
+          }
+        },
+        "message": "Semantic thinness (abstract-agency-personification): Catch abstract systems, rooms, strategies, and conversations treated as intentional actors instead of naming concrete behavior. Matched template: {roadmapSubject} stopped being a plan and started becoming {abstractStructure}.",
+        "range": [
+          36744,
+          36821
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 36823,
+        "line": 917,
+        "loc": {
+          "end": {
+            "column": 59,
+            "line": 917
+          },
+          "start": {
+            "column": 1,
+            "line": 917
+          }
+        },
+        "message": "Semantic thinness (abstract-agency-personification): Catch abstract systems, rooms, strategies, and conversations treated as intentional actors instead of naming concrete behavior. Matched template: {answerSubject} was always closer than {abstractSearch} made it seem.",
+        "range": [
+          36823,
+          36881
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 36883,
+        "line": 919,
+        "loc": {
+          "end": {
+            "column": 71,
+            "line": 919
+          },
+          "start": {
+            "column": 1,
+            "line": 919
+          }
+        },
+        "message": "Semantic thinness (body-knows): Catch wellness-style body wisdom claims that make the body, mind, breath, or nervous system perform vague knowing or learning. Matched template: {cellsSubject} recognize the difference between {abstractState} and {abstractState}.",
+        "range": [
+          36883,
+          36953
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 36955,
+        "line": 921,
+        "loc": {
+          "end": {
+            "column": 71,
+            "line": 921
+          },
+          "start": {
+            "column": 1,
+            "line": 921
+          }
+        },
+        "message": "Semantic thinness (body-knows): Catch wellness-style body wisdom claims that make the body, mind, breath, or nervous system perform vague knowing or learning. Matched template: {wisdomSubject} becomes the map when {mindSubject} is still {abstractMotion}.",
+        "range": [
+          36955,
+          37025
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 37027,
+        "line": 923,
+        "loc": {
+          "end": {
+            "column": 70,
+            "line": 923
+          },
+          "start": {
+            "column": 1,
+            "line": 923
+          }
+        },
+        "message": "Semantic thinness (emotion-as-substance): Catch abstract emotion or state treated as a physical substance moving through bodies, voices, rooms, or groups. Matched template: {abstractEmotion} pooled at the edges of {abstractContainer}.",
+        "range": [
+          37027,
+          37096
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 37098,
+        "line": 925,
+        "loc": {
+          "end": {
+            "column": 60,
+            "line": 925
+          },
+          "start": {
+            "column": 1,
+            "line": 925
+          }
+        },
+        "message": "Semantic thinness (emotion-as-substance): Catch abstract emotion or state treated as a physical substance moving through bodies, voices, rooms, or groups. Matched template: {abstractEmotion} entered {placeTarget} like a {substanceImage}.",
+        "range": [
+          37098,
+          37157
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 37159,
+        "line": 927,
+        "loc": {
+          "end": {
+            "column": 67,
+            "line": 927
+          },
+          "start": {
+            "column": 1,
+            "line": 927
+          }
+        },
+        "message": "Semantic thinness (abstract-agency-personification): Catch abstract systems, rooms, strategies, and conversations treated as intentional actors instead of naming concrete behavior. Matched template: {abstractAgent} asks for {identityRequest}.",
+        "range": [
+          37159,
+          37225
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 37227,
+        "line": 929,
+        "loc": {
+          "end": {
+            "column": 73,
+            "line": 929
+          },
+          "start": {
+            "column": 1,
+            "line": 929
+          }
+        },
+        "message": "Semantic thinness (abstract-agency-personification): Catch abstract systems, rooms, strategies, and conversations treated as intentional actors instead of naming concrete behavior. Matched template: {pathSubject} is obvious once {abstractObstacle} is no longer allowed to lead.",
+        "range": [
+          37227,
+          37299
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 37301,
+        "line": 931,
+        "loc": {
+          "end": {
+            "column": 67,
+            "line": 931
+          },
+          "start": {
+            "column": 1,
+            "line": 931
+          }
+        },
+        "message": "Semantic thinness (abstract-agency-personification): Catch abstract systems, rooms, strategies, and conversations treated as intentional actors instead of naming concrete behavior. Matched template: {opportunitySubject} is to let {abstractWork} teach us what {abstractWork} is.",
+        "range": [
+          37301,
+          37367
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 37900,
+        "line": 949,
+        "loc": {
+          "end": {
+            "column": 17,
+            "line": 949
+          },
+          "start": {
+            "column": 1,
+            "line": 949
+          }
+        },
+        "message": "Prohibited phrase found: \"In a world where\". Rewrite without this phrase.",
+        "range": [
+          37900,
+          37916
+        ],
+        "ruleId": "prohibited-phrases",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 37900,
+        "line": 949,
+        "loc": {
+          "end": {
+            "column": 73,
+            "line": 949
+          },
+          "start": {
+            "column": 1,
+            "line": 949
+          }
+        },
+        "message": "Generic signposting found: in-a-world-where-x-becomes-y. Replace the frame with the concrete claim.",
+        "range": [
+          37900,
+          37972
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 37974,
+        "line": 951,
+        "loc": {
+          "end": {
+            "column": 58,
+            "line": 951
+          },
+          "start": {
+            "column": 1,
+            "line": 951
+          }
+        },
+        "message": "Generic signposting found: if-we-want-care-we-need-care. Replace the frame with the concrete claim.",
+        "range": [
+          37974,
+          38031
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 38033,
+        "line": 953,
+        "loc": {
+          "end": {
+            "column": 89,
+            "line": 953
+          },
+          "start": {
+            "column": 1,
+            "line": 953
+          }
+        },
+        "message": "Generic signposting found: if-we-want-care-we-need-care. Replace the frame with the concrete claim.",
+        "range": [
+          38033,
+          38121
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 38123,
+        "line": 955,
+        "loc": {
+          "end": {
+            "column": 51,
+            "line": 955
+          },
+          "start": {
+            "column": 1,
+            "line": 955
+          }
+        },
+        "message": "Generic signposting found: this-is-the-moment-to-choose. Replace the frame with the concrete claim.",
+        "range": [
+          38123,
+          38173
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 38175,
+        "line": 957,
+        "loc": {
+          "end": {
+            "column": 48,
+            "line": 957
+          },
+          "start": {
+            "column": 1,
+            "line": 957
+          }
+        },
+        "message": "Generic signposting found: simple-profound-signal-frame. Replace the frame with the concrete claim.",
+        "range": [
+          38175,
+          38222
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 38224,
+        "line": 959,
+        "loc": {
+          "end": {
+            "column": 37,
+            "line": 959
+          },
+          "start": {
+            "column": 1,
+            "line": 959
+          }
+        },
+        "message": "Contrastive aphorism found: better-x-create-better-y. Replace the slogan with a concrete claim.",
+        "range": [
+          38224,
+          38260
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 38262,
+        "line": 961,
+        "loc": {
+          "end": {
+            "column": 40,
+            "line": 961
+          },
+          "start": {
+            "column": 1,
+            "line": 961
+          }
+        },
+        "message": "Contrastive aphorism found: better-x-create-better-y. Replace the slogan with a concrete claim.",
+        "range": [
+          38262,
+          38301
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 38382,
+        "line": 965,
+        "loc": {
+          "end": {
+            "column": 49,
+            "line": 965
+          },
+          "start": {
+            "column": 1,
+            "line": 965
+          }
+        },
+        "message": "Contrastive aphorism found: x-is-not-y-it-is-z. Replace the slogan with a concrete claim.",
+        "range": [
+          38382,
+          38430
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 38513,
+        "line": 969,
+        "loc": {
+          "end": {
+            "column": 49,
+            "line": 969
+          },
+          "start": {
+            "column": 1,
+            "line": 969
+          }
+        },
+        "message": "Contrastive aphorism found: x-is-not-y-it-is-z. Replace the slogan with a concrete claim.",
+        "range": [
+          38513,
+          38561
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 38563,
+        "line": 971,
+        "loc": {
+          "end": {
+            "column": 49,
+            "line": 971
+          },
+          "start": {
+            "column": 1,
+            "line": 971
+          }
+        },
+        "message": "Contrastive aphorism found: x-is-not-y-it-is-z. Replace the slogan with a concrete claim.",
+        "range": [
+          38563,
+          38611
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 38613,
+        "line": 973,
+        "loc": {
+          "end": {
+            "column": 57,
+            "line": 973
+          },
+          "start": {
+            "column": 1,
+            "line": 973
+          }
+        },
+        "message": "Contrastive aphorism found: x-is-not-y-it-is-z. Replace the slogan with a concrete claim.",
+        "range": [
+          38613,
+          38669
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 39099,
+        "line": 989,
+        "loc": {
+          "end": {
+            "column": 108,
+            "line": 989
+          },
+          "start": {
+            "column": 1,
+            "line": 989
+          }
+        },
+        "message": "Academic formula frame found: \"The article provides a comprehensive overview of the evolving discourse surrounding ethical data governance\". Replace it with the concrete claim, method, or result.",
+        "range": [
+          39099,
+          39206
+        ],
+        "ruleId": "academic-formula-frames",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 24,
+        "index": 39122,
+        "line": 989,
+        "loc": {
+          "end": {
+            "column": 37,
+            "line": 989
+          },
+          "start": {
+            "column": 24,
+            "line": 989
+          }
+        },
+        "message": "LLM vocabulary found: \"comprehensive\". Replace the stock diction with a concrete word.",
+        "range": [
+          39122,
+          39135
+        ],
+        "ruleId": "llm-vocabulary",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 39209,
+        "line": 991,
+        "loc": {
+          "end": {
+            "column": 85,
+            "line": 991
+          },
+          "start": {
+            "column": 1,
+            "line": 991
+          }
+        },
+        "message": "Academic formula frame found: \"The evidence suggests that collaboration serves as a key driver of meaningful change\". Replace it with the concrete claim, method, or result.",
+        "range": [
+          39209,
+          39293
+        ],
+        "ruleId": "academic-formula-frames",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 39321,
+        "line": 993,
+        "loc": {
+          "end": {
+            "column": 104,
+            "line": 993
+          },
+          "start": {
+            "column": 1,
+            "line": 993
+          }
+        },
+        "message": "Academic formula frame found: \"This framework offers a robust pathway for understanding the shifting contours of disciplinary practice\". Replace it with the concrete claim, method, or result.",
+        "range": [
+          39321,
+          39424
+        ],
+        "ruleId": "academic-formula-frames",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 25,
+        "index": 39345,
+        "line": 993,
+        "loc": {
+          "end": {
+            "column": 31,
+            "line": 993
+          },
+          "start": {
+            "column": 25,
+            "line": 993
+          }
+        },
+        "message": "Prohibited word found: \"robust\". Rewrite without this term.",
+        "range": [
+          39345,
+          39351
+        ],
+        "ruleId": "prohibited-words",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 39427,
+        "line": 995,
+        "loc": {
+          "end": {
+            "column": 68,
+            "line": 995
+          },
+          "start": {
+            "column": 1,
+            "line": 995
+          }
+        },
+        "message": "Academic formula frame found: \"The discussion highlights the importance of centering student voice\". Replace it with the concrete claim, method, or result.",
+        "range": [
+          39427,
+          39494
+        ],
+        "ruleId": "academic-formula-frames",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 23,
+        "index": 39563,
+        "line": 997,
+        "loc": {
+          "end": {
+            "column": 104,
+            "line": 997
+          },
+          "start": {
+            "column": 23,
+            "line": 997
+          }
+        },
+        "message": "Academic formula frame found: \"reflexivity emerges as a critical touchstone for reimagining scholarly engagement\". Replace it with the concrete claim, method, or result.",
+        "range": [
+          39563,
+          39644
+        ],
+        "ruleId": "academic-formula-frames",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 39647,
+        "line": 999,
+        "loc": {
+          "end": {
+            "column": 75,
+            "line": 999
+          },
+          "start": {
+            "column": 1,
+            "line": 999
+          }
+        },
+        "message": "Academic formula frame found: \"The study illuminates the ways in which policy actors negotiate complexity\". Replace it with the concrete claim, method, or result.",
+        "range": [
+          39647,
+          39721
+        ],
+        "ruleId": "academic-formula-frames",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 39771,
+        "line": 1001,
+        "loc": {
+          "end": {
+            "column": 96,
+            "line": 1001
+          },
+          "start": {
+            "column": 1,
+            "line": 1001
+          }
+        },
+        "message": "Academic formula frame found: \"These insights have profound implications for researchers seeking to bridge theory and practice\". Replace it with the concrete claim, method, or result.",
+        "range": [
+          39771,
+          39866
+        ],
+        "ruleId": "academic-formula-frames",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 70,
+        "index": 39840,
+        "line": 1001,
+        "loc": {
+          "end": {
+            "column": 96,
+            "line": 1001
+          },
+          "start": {
+            "column": 70,
+            "line": 1001
+          }
+        },
+        "message": "Academic boilerplate found: \"bridge theory and practice\". Replace it with the concrete claim, method, or result.",
+        "range": [
+          39840,
+          39866
+        ],
+        "ruleId": "academic-boilerplate",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 26,
+        "index": 39894,
+        "line": 1003,
+        "loc": {
+          "end": {
+            "column": 34,
+            "line": 1003
+          },
+          "start": {
+            "column": 26,
+            "line": 1003
+          }
+        },
+        "message": "LLM vocabulary found: \"tapestry\". Replace the stock diction with a concrete word.",
+        "range": [
+          39894,
+          39902
+        ],
+        "ruleId": "llm-vocabulary",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 26,
+        "index": 39894,
+        "line": 1003,
+        "loc": {
+          "end": {
+            "column": 34,
+            "line": 1003
+          },
+          "start": {
+            "column": 26,
+            "line": 1003
+          }
+        },
+        "message": "Prohibited word found: \"tapestry\". Rewrite without this term.",
+        "range": [
+          39894,
+          39902
+        ],
+        "ruleId": "prohibited-words",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 22,
+        "index": 40005,
+        "line": 1005,
+        "loc": {
+          "end": {
+            "column": 36,
+            "line": 1005
+          },
+          "start": {
+            "column": 22,
+            "line": 1005
+          }
+        },
+        "message": "Academic boilerplate found: \"fertile ground\". Replace it with the concrete claim, method, or result.",
+        "range": [
+          40005,
+          40019
+        ],
+        "ruleId": "academic-boilerplate",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 58,
+        "index": 40133,
+        "line": 1007,
+        "loc": {
+          "end": {
+            "column": 73,
+            "line": 1007
+          },
+          "start": {
+            "column": 58,
+            "line": 1007
+          }
+        },
+        "message": "Academic boilerplate found: \"broader ecology\". Replace it with the concrete claim, method, or result.",
+        "range": [
+          40133,
+          40148
+        ],
+        "ruleId": "academic-boilerplate",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 40173,
+        "line": 1009,
+        "loc": {
+          "end": {
+            "column": 95,
+            "line": 1009
+          },
+          "start": {
+            "column": 1,
+            "line": 1009
+          }
+        },
+        "message": "Academic formula frame found: \"The analysis gestures toward a more expansive understanding of what counts as scholarly impact\". Replace it with the concrete claim, method, or result.",
+        "range": [
+          40173,
+          40267
+        ],
+        "ruleId": "academic-formula-frames",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 59,
+        "index": 40328,
+        "line": 1011,
+        "loc": {
+          "end": {
+            "column": 74,
+            "line": 1011
+          },
+          "start": {
+            "column": 59,
+            "line": 1011
+          }
+        },
+        "message": "Academic boilerplate found: \"academic praxis\". Replace it with the concrete claim, method, or result.",
+        "range": [
+          40328,
+          40343
+        ],
+        "ruleId": "academic-boilerplate",
+        "severity": 2,
+        "type": "lint"
       }
     ]
   }

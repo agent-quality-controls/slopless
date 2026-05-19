@@ -8,7 +8,6 @@ const META_CONTEXT_WORDS = new Set([
   "banned",
   "code",
   "column",
-  "customer",
   "detector",
   "example",
   "field",
@@ -30,6 +29,7 @@ const META_CONTEXT_WORDS = new Set([
 ]);
 
 const DOMAIN_CONTEXT_BY_WORD = new Map<string, ReadonlySet<string>>([
+  ["authentic", new Set(["label", "shellac", "signature", "signatures"])],
   [
     "catalyze",
     new Set(["catalyst", "chemistry", "palladium", "reaction", "substrate"])
@@ -51,7 +51,17 @@ const DOMAIN_CONTEXT_BY_WORD = new Map<string, ReadonlySet<string>>([
     new Set(["bicarbonate", "chloride", "panel", "potassium", "sodium"])
   ],
   ["confidence", new Set(["interval", "level", "statistic"])],
+  [
+    "engagement",
+    new Set(["active", "divided", "product", "requirement", "seats", "weekly"])
+  ],
   ["frictionless", new Set(["bearing", "physics", "surface", "track"])],
+  ["ai", new Set(["file", "format", "header", "metadata", "model"])],
+  ["native", new Set(["file", "format", "header", "metadata", "model"])],
+  ["next", new Set(["cpu", "cpus", "device", "manual", "processor"])],
+  ["generation", new Set(["cpu", "cpus", "device", "manual", "processor"])],
+  ["operationalize", new Set(["define", "lesson", "plan", "sentence"])],
+  ["stakeholders", new Set(["contract", "governance", "rights", "voting"])],
   [
     "landscape",
     new Set([

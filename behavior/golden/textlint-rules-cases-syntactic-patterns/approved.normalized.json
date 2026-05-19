@@ -12605,6 +12605,282 @@
         "ruleId": "negation-reframe",
         "severity": 2,
         "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 49479,
+        "line": 1077,
+        "loc": {
+          "end": {
+            "column": 17,
+            "line": 1077
+          },
+          "start": {
+            "column": 1,
+            "line": 1077
+          }
+        },
+        "message": "Prohibited phrase found: \"In a world where\". Rewrite without this phrase.",
+        "range": [
+          49479,
+          49495
+        ],
+        "ruleId": "prohibited-phrases",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 49479,
+        "line": 1077,
+        "loc": {
+          "end": {
+            "column": 73,
+            "line": 1077
+          },
+          "start": {
+            "column": 1,
+            "line": 1077
+          }
+        },
+        "message": "Generic signposting found: in-a-world-where-x-becomes-y. Replace the frame with the concrete claim.",
+        "range": [
+          49479,
+          49551
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 49553,
+        "line": 1079,
+        "loc": {
+          "end": {
+            "column": 58,
+            "line": 1079
+          },
+          "start": {
+            "column": 1,
+            "line": 1079
+          }
+        },
+        "message": "Generic signposting found: if-we-want-care-we-need-care. Replace the frame with the concrete claim.",
+        "range": [
+          49553,
+          49610
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 49612,
+        "line": 1081,
+        "loc": {
+          "end": {
+            "column": 89,
+            "line": 1081
+          },
+          "start": {
+            "column": 1,
+            "line": 1081
+          }
+        },
+        "message": "Generic signposting found: if-we-want-care-we-need-care. Replace the frame with the concrete claim.",
+        "range": [
+          49612,
+          49700
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 49702,
+        "line": 1083,
+        "loc": {
+          "end": {
+            "column": 51,
+            "line": 1083
+          },
+          "start": {
+            "column": 1,
+            "line": 1083
+          }
+        },
+        "message": "Generic signposting found: this-is-the-moment-to-choose. Replace the frame with the concrete claim.",
+        "range": [
+          49702,
+          49752
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 49754,
+        "line": 1085,
+        "loc": {
+          "end": {
+            "column": 48,
+            "line": 1085
+          },
+          "start": {
+            "column": 1,
+            "line": 1085
+          }
+        },
+        "message": "Generic signposting found: simple-profound-signal-frame. Replace the frame with the concrete claim.",
+        "range": [
+          49754,
+          49801
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 49803,
+        "line": 1087,
+        "loc": {
+          "end": {
+            "column": 37,
+            "line": 1087
+          },
+          "start": {
+            "column": 1,
+            "line": 1087
+          }
+        },
+        "message": "Contrastive aphorism found: better-x-create-better-y. Replace the slogan with a concrete claim.",
+        "range": [
+          49803,
+          49839
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 49841,
+        "line": 1089,
+        "loc": {
+          "end": {
+            "column": 40,
+            "line": 1089
+          },
+          "start": {
+            "column": 1,
+            "line": 1089
+          }
+        },
+        "message": "Contrastive aphorism found: better-x-create-better-y. Replace the slogan with a concrete claim.",
+        "range": [
+          49841,
+          49880
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 49961,
+        "line": 1093,
+        "loc": {
+          "end": {
+            "column": 49,
+            "line": 1093
+          },
+          "start": {
+            "column": 1,
+            "line": 1093
+          }
+        },
+        "message": "Contrastive aphorism found: x-is-not-y-it-is-z. Replace the slogan with a concrete claim.",
+        "range": [
+          49961,
+          50009
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 50092,
+        "line": 1097,
+        "loc": {
+          "end": {
+            "column": 49,
+            "line": 1097
+          },
+          "start": {
+            "column": 1,
+            "line": 1097
+          }
+        },
+        "message": "Contrastive aphorism found: x-is-not-y-it-is-z. Replace the slogan with a concrete claim.",
+        "range": [
+          50092,
+          50140
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 50142,
+        "line": 1099,
+        "loc": {
+          "end": {
+            "column": 49,
+            "line": 1099
+          },
+          "start": {
+            "column": 1,
+            "line": 1099
+          }
+        },
+        "message": "Contrastive aphorism found: x-is-not-y-it-is-z. Replace the slogan with a concrete claim.",
+        "range": [
+          50142,
+          50190
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 50192,
+        "line": 1101,
+        "loc": {
+          "end": {
+            "column": 57,
+            "line": 1101
+          },
+          "start": {
+            "column": 1,
+            "line": 1101
+          }
+        },
+        "message": "Contrastive aphorism found: x-is-not-y-it-is-z. Replace the slogan with a concrete claim.",
+        "range": [
+          50192,
+          50248
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
       }
     ]
   },

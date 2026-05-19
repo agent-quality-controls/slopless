@@ -77,6 +77,8 @@ const BROAD_PATTERN_IDS = new Set([
   "vague-threshold-change"
 ]);
 const CONNECTOR_ALLOWED_PATTERN_IDS = new Set([
+  "abstract-agency-personification",
+  "body-knows",
   "recursive-meaning-frame",
   "vague-summary-cost"
 ]);

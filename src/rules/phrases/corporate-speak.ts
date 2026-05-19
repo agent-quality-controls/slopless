@@ -21,12 +21,25 @@ const LITERAL_DOUBLE_CLICK_CONTEXT = new Set([
   "window"
 ]);
 
+const LEGAL_ENTITY_CONTEXT = new Set([
+  "company",
+  "entity",
+  "legal",
+  "lists",
+  "partners",
+  "registration"
+]);
+
 function allowedCorporatePhraseContext(
   text: string,
   match: PhraseMatch
 ): boolean {
   if (match.phrase !== "double-click on") {
-    return false;
+    const words = wordTokens(text).map((token) => token.normalized);
+    return (
+      match.phrase === "next-generation growth" &&
+      words.some((word) => LEGAL_ENTITY_CONTEXT.has(word))
+    );
   }
 
   return wordTokens(text).some((token) =>

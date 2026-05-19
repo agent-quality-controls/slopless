@@ -219,3 +219,17 @@ Not because the sample was contaminated, but because the vial cracked.
 The fixture quotes "Not because the work is easy, but because the work matters" as a detector example.
 
 Not because the patient refused care, but because the clinic closed at noon.
+
+In a world map, the prime meridian passes through Greenwich.
+
+If the server returns 500, we need the request ID.
+
+Better batteries create better range in this test because the voltage stays stable.
+
+The strategy is not stored in the database; it is stored in the repository.
+
+Change is not a destination field in the schema.
+
+Momentum is not speed in the physics worksheet.
+
+Alignment is not agreement in this contract clause.

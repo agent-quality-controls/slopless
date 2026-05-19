@@ -2945,6 +2945,374 @@
         "ruleId": "semantic-thinness",
         "severity": 2,
         "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 4820,
+        "line": 227,
+        "loc": {
+          "end": {
+            "column": 78,
+            "line": 227
+          },
+          "start": {
+            "column": 1,
+            "line": 227
+          }
+        },
+        "message": "Semantic thinness (abstract-agency-personification): Catch abstract systems, rooms, strategies, and conversations treated as intentional actors instead of naming concrete behavior. Matched template: {abstractAgent} was {speechVerb} that {emptyInstitutionalClaim}.",
+        "range": [
+          4820,
+          4897
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 4899,
+        "line": 229,
+        "loc": {
+          "end": {
+            "column": 47,
+            "line": 229
+          },
+          "start": {
+            "column": 1,
+            "line": 229
+          }
+        },
+        "message": "Semantic thinness (abstract-agency-personification): Catch abstract systems, rooms, strategies, and conversations treated as intentional actors instead of naming concrete behavior. Matched template: {abstractAgent} was asking for {softAnswer}.",
+        "range": [
+          4899,
+          4945
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 4947,
+        "line": 231,
+        "loc": {
+          "end": {
+            "column": 67,
+            "line": 231
+          },
+          "start": {
+            "column": 1,
+            "line": 231
+          }
+        },
+        "message": "Semantic thinness (abstract-agency-personification): Catch abstract systems, rooms, strategies, and conversations treated as intentional actors instead of naming concrete behavior. Matched template: {abstractAgent} knew it needed to {identityChange}.",
+        "range": [
+          4947,
+          5013
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 5015,
+        "line": 233,
+        "loc": {
+          "end": {
+            "column": 67,
+            "line": 233
+          },
+          "start": {
+            "column": 1,
+            "line": 233
+          }
+        },
+        "message": "Semantic thinness (abstract-agency-personification): Catch abstract systems, rooms, strategies, and conversations treated as intentional actors instead of naming concrete behavior. Matched template: {abstractSilence} in {technicalSurface} said {emptyComparison}.",
+        "range": [
+          5015,
+          5081
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 5083,
+        "line": 235,
+        "loc": {
+          "end": {
+            "column": 81,
+            "line": 235
+          },
+          "start": {
+            "column": 1,
+            "line": 235
+          }
+        },
+        "message": "Demonstrative emphasis found: \"This is where everything begins to feel different, even before anything changes.\". Reduce repeated short emphasis lines.",
+        "range": [
+          5083,
+          5163
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 5083,
+        "line": 235,
+        "loc": {
+          "end": {
+            "column": 81,
+            "line": 235
+          },
+          "start": {
+            "column": 1,
+            "line": 235
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticSubject} {linkingVerb} where {abstractSubject} {abstractVerb}.",
+        "range": [
+          5083,
+          5163
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 5165,
+        "line": 237,
+        "loc": {
+          "end": {
+            "column": 82,
+            "line": 237
+          },
+          "start": {
+            "column": 1,
+            "line": 237
+          }
+        },
+        "message": "Semantic thinness (abstract-agency-personification): Catch abstract systems, rooms, strategies, and conversations treated as intentional actors instead of naming concrete behavior. Matched template: something opens when {softCondition}.",
+        "range": [
+          5165,
+          5246
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 5248,
+        "line": 239,
+        "loc": {
+          "end": {
+            "column": 78,
+            "line": 239
+          },
+          "start": {
+            "column": 1,
+            "line": 239
+          }
+        },
+        "message": "Semantic thinness (abstract-agency-personification): Catch abstract systems, rooms, strategies, and conversations treated as intentional actors instead of naming concrete behavior. Matched template: {roadmapSubject} stopped being a plan and started becoming {abstractStructure}.",
+        "range": [
+          5248,
+          5325
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 5327,
+        "line": 241,
+        "loc": {
+          "end": {
+            "column": 59,
+            "line": 241
+          },
+          "start": {
+            "column": 1,
+            "line": 241
+          }
+        },
+        "message": "Semantic thinness (abstract-agency-personification): Catch abstract systems, rooms, strategies, and conversations treated as intentional actors instead of naming concrete behavior. Matched template: {answerSubject} was always closer than {abstractSearch} made it seem.",
+        "range": [
+          5327,
+          5385
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 5387,
+        "line": 243,
+        "loc": {
+          "end": {
+            "column": 71,
+            "line": 243
+          },
+          "start": {
+            "column": 1,
+            "line": 243
+          }
+        },
+        "message": "Semantic thinness (body-knows): Catch wellness-style body wisdom claims that make the body, mind, breath, or nervous system perform vague knowing or learning. Matched template: {cellsSubject} recognize the difference between {abstractState} and {abstractState}.",
+        "range": [
+          5387,
+          5457
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 5459,
+        "line": 245,
+        "loc": {
+          "end": {
+            "column": 71,
+            "line": 245
+          },
+          "start": {
+            "column": 1,
+            "line": 245
+          }
+        },
+        "message": "Semantic thinness (body-knows): Catch wellness-style body wisdom claims that make the body, mind, breath, or nervous system perform vague knowing or learning. Matched template: {wisdomSubject} becomes the map when {mindSubject} is still {abstractMotion}.",
+        "range": [
+          5459,
+          5529
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 5531,
+        "line": 247,
+        "loc": {
+          "end": {
+            "column": 70,
+            "line": 247
+          },
+          "start": {
+            "column": 1,
+            "line": 247
+          }
+        },
+        "message": "Semantic thinness (emotion-as-substance): Catch abstract emotion or state treated as a physical substance moving through bodies, voices, rooms, or groups. Matched template: {abstractEmotion} pooled at the edges of {abstractContainer}.",
+        "range": [
+          5531,
+          5600
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 5602,
+        "line": 249,
+        "loc": {
+          "end": {
+            "column": 60,
+            "line": 249
+          },
+          "start": {
+            "column": 1,
+            "line": 249
+          }
+        },
+        "message": "Semantic thinness (emotion-as-substance): Catch abstract emotion or state treated as a physical substance moving through bodies, voices, rooms, or groups. Matched template: {abstractEmotion} entered {placeTarget} like a {substanceImage}.",
+        "range": [
+          5602,
+          5661
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 5663,
+        "line": 251,
+        "loc": {
+          "end": {
+            "column": 67,
+            "line": 251
+          },
+          "start": {
+            "column": 1,
+            "line": 251
+          }
+        },
+        "message": "Semantic thinness (abstract-agency-personification): Catch abstract systems, rooms, strategies, and conversations treated as intentional actors instead of naming concrete behavior. Matched template: {abstractAgent} asks for {identityRequest}.",
+        "range": [
+          5663,
+          5729
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 5731,
+        "line": 253,
+        "loc": {
+          "end": {
+            "column": 73,
+            "line": 253
+          },
+          "start": {
+            "column": 1,
+            "line": 253
+          }
+        },
+        "message": "Semantic thinness (abstract-agency-personification): Catch abstract systems, rooms, strategies, and conversations treated as intentional actors instead of naming concrete behavior. Matched template: {pathSubject} is obvious once {abstractObstacle} is no longer allowed to lead.",
+        "range": [
+          5731,
+          5803
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 5805,
+        "line": 255,
+        "loc": {
+          "end": {
+            "column": 67,
+            "line": 255
+          },
+          "start": {
+            "column": 1,
+            "line": 255
+          }
+        },
+        "message": "Semantic thinness (abstract-agency-personification): Catch abstract systems, rooms, strategies, and conversations treated as intentional actors instead of naming concrete behavior. Matched template: {opportunitySubject} is to let {abstractWork} teach us what {abstractWork} is.",
+        "range": [
+          5805,
+          5871
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
       }
     ]
   },
