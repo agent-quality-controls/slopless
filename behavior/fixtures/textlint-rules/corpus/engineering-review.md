@@ -767,3 +767,57 @@ The benchmark reported the best score, 94.1 percent, on the validation set.
 The review quoted "masterpiece" while disagreeing with the marketing copy.
 
 The 1918 armistice was unprecedented in the regiment's records.
+
+## widened no-hit controls
+
+The control packet keeps ordinary technical, operational, and literal cases beside the broader slop frames.
+
+This changes the invoice total because the tax rate moved from 6 percent to 8 percent.
+
+That shows the crawler received a 403 before the body copy rendered.
+
+It explains why the queue stalled after the retry worker lost its token.
+
+The missing layer is access control: only billing admins can export invoices.
+
+The practical answer is to rotate the signing key before the deployment.
+
+The useful version is the one with line numbers and source offsets.
+
+The air felt heavy because smoke from the kiln filled the courtyard.
+
+The room went silent after the generator stopped.
+
+The market felt different because three stalls moved after the fire.
+
+Her stomach tightened because the harness strap pulled across the bruise.
+
+His shoulders sank after the doctor lowered the weighted brace.
+
+Her throat closed because the peanut lodged below the tongue.
+
+The weight settled on the scale at 12 kilograms.
+
+The words hit the paper banner like rain because the roof leaked.
+
+The route is easy because the trail is paved and marked.
+
+The movie is different because the director restored the missing scene.
+
+The repair gives you a receipt. The warranty gives you a serial number.
+
+The dashboard gets one chart. The export gets another column.
+
+The patient gets one dose. The nurse records another dose.
+
+The answer key is straightforward because every page lists the worked solution.
+
+The practical guide is useful because it names the commands and flags.
+
+What changed after the first patch was the cache key.
+
+What works better than the old endpoint is the signed upload URL.
+
+The missing layer is authentication because the staging API rejects public tokens.
+
+The focus is practical optics in the microscope calibration note.

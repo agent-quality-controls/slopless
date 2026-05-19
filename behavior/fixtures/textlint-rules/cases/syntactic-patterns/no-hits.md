@@ -167,3 +167,25 @@ The patient gets one dose. The control group gets another dose.
 The better operating system is ready for the migration.
 
 The grown-up answer key is missing from the training packet.
+
+The route is easy because the trail is paved and marked.
+
+The movie is different because the director restored the missing scene.
+
+The repair gives you a receipt. The warranty gives you a serial number.
+
+The dashboard gets one chart. The export gets another column.
+
+The patient gets one dose. The nurse records another dose.
+
+The answer key is straightforward because every page lists the worked solution.
+
+The practical guide is useful because it names the commands and flags.
+
+What changed after the first patch was the cache key.
+
+What works better than the old endpoint is the signed upload URL.
+
+The missing layer is authentication because the staging API rejects public tokens.
+
+The focus is practical optics in the microscope calibration note.

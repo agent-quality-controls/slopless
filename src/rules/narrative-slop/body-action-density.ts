@@ -76,7 +76,11 @@ const BODY_CUES = new Set([
   "breath",
   "breaths",
   "paw",
-  "paws"
+  "paws",
+  "hand",
+  "hands",
+  "shoulder",
+  "shoulders"
 ]);
 
 const MAX_PARAGRAPH_TOKENS = 95;
@@ -95,6 +99,9 @@ const PHRASE_CUES: readonly PhraseCue[] = [
   { group: "movement cue", tokens: ["crossed", "her", "arms"] },
   { group: "movement cue", tokens: ["crossed", "his", "arms"] },
   { group: "movement cue", tokens: ["crossed", "their", "arms"] },
+  { group: "movement cue", tokens: ["turned", "her", "head"] },
+  { group: "movement cue", tokens: ["turned", "his", "head"] },
+  { group: "movement cue", tokens: ["turned", "their", "head"] },
   { group: "movement cue", tokens: ["sat", "up"] },
   { group: "movement cue", tokens: ["walked", "over"] },
   { group: "movement cue", tokens: ["stopped", "next", "to"] },
@@ -102,6 +109,9 @@ const PHRASE_CUES: readonly PhraseCue[] = [
   { group: "movement cue", tokens: ["rested", "her", "paws"] },
   { group: "movement cue", tokens: ["rested", "his", "paws"] },
   { group: "movement cue", tokens: ["rested", "their", "paws"] },
+  { group: "movement cue", tokens: ["rested", "her", "hands"] },
+  { group: "movement cue", tokens: ["rested", "his", "hands"] },
+  { group: "movement cue", tokens: ["rested", "their", "hands"] },
   { group: "body cue", tokens: ["could", "not", "help", "but", "feel"] },
   { group: "body cue", tokens: ["couldn't", "help", "but", "feel"] },
   { group: "body cue", tokens: ["could", "not", "shake", "the", "feeling"] },
@@ -127,6 +137,9 @@ const PHRASE_CUES: readonly PhraseCue[] = [
     tokens: ["breath", "they", "didn't", "know", "they", "were", "holding"]
   },
   { group: "body cue", tokens: ["voice", "was", "low"] },
+  { group: "body cue", tokens: ["lowered", "her", "voice"] },
+  { group: "body cue", tokens: ["lowered", "his", "voice"] },
+  { group: "body cue", tokens: ["lowered", "their", "voice"] },
   { group: "body cue", tokens: ["smile", "played", "on", "her", "lips"] },
   { group: "body cue", tokens: ["smile", "played", "on", "his", "lips"] },
   { group: "body cue", tokens: ["smile", "played", "on", "their", "lips"] },
@@ -148,6 +161,7 @@ const PHRASE_CUES: readonly PhraseCue[] = [
   { group: "body cue", tokens: ["looked", "tired"] },
   { group: "body cue", tokens: ["ears", "twitched"] },
   { group: "body cue", tokens: ["ears", "flattened"] },
+  { group: "body cue", tokens: ["tail", "hung", "still"] },
   { group: "body cue", tokens: ["tail", "angled"] },
   { group: "body cue", tokens: ["tail", "flicked"] },
   { group: "body cue", tokens: ["paws", "shifted"] },

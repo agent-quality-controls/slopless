@@ -55,3 +55,23 @@ Liska took a deep breath, counted the rope knots, and tied the loose end to the 
 The report says the phrase "little did she know" is a narrative cliche.
 
 The medic could not help but feel the pulse under the bandage.
+
+Cassia stepped onto the marked square, lifted the latch, and checked the number scratched into the brass plate.
+
+Arden looked through the spyhole, counted two guards, and wrote the count on the slate.
+
+Liska's ears flattened under the bandage because the medic wrapped it too tightly.
+
+Remal's tail twitched when the fly landed on the cut.
+
+Marius walked to the rack, picked up the practice sword, and measured it against the broken one.
+
+Cassia watched the pulley until the rope slipped, then marked the frayed strand with chalk.
+
+The actor lowered his voice for the stage cue.
+
+The singer smiled after the conductor gave the entrance cue.
+
+The runner crossed his arms to stretch his shoulders before the race.
+
+The technician rested her hands on the sill to reach the loose antenna cable.

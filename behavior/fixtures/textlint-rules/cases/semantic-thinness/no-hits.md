@@ -149,3 +149,31 @@ The plumber repaired the plumbing with replacement valves.
 The data model adds another layer to the diagnosis because the clinical report requires it.
 
 The local permit filter rejected the business because its address was outside the city boundary.
+
+This changes the invoice total because the tax rate moved from 6 percent to 8 percent.
+
+That shows the crawler received a 403 before the body copy rendered.
+
+It explains why the queue stalled after the retry worker lost its token.
+
+The missing layer is access control: only billing admins can export invoices.
+
+The practical answer is to rotate the signing key before the deployment.
+
+The useful version is the one with line numbers and source offsets.
+
+The air felt heavy because smoke from the kiln filled the courtyard.
+
+The room went silent after the generator stopped.
+
+The market felt different because three stalls moved after the fire.
+
+Her stomach tightened because the harness strap pulled across the bruise.
+
+His shoulders sank after the doctor lowered the weighted brace.
+
+Her throat closed because the peanut lodged below the tongue.
+
+The weight settled on the scale at 12 kilograms.
+
+The words hit the paper banner like rain because the roof leaked.

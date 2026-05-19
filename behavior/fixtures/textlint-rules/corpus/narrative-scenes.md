@@ -387,3 +387,27 @@ She did not wait for anyone to ask her a question. She pointed a small paw towar
 He didn't argue with the guard. Instead, he opened the ledger.
 
 The clerk checked the deployment notice. The beta endpoint is no longer available. It was removed after the migration. She did not wait because the clinic was closing. The status is not final because the review is still open.
+
+## widened narrative no-hit controls
+
+The control scene keeps purposeful movement, measured observation, and literal body facts out of the density rules.
+
+Cassia stepped onto the marked square, lifted the latch, and checked the number scratched into the brass plate.
+
+Arden looked through the spyhole, counted two guards, and wrote the count on the slate.
+
+Liska's ears flattened under the bandage because the medic wrapped it too tightly.
+
+Remal's tail twitched when the fly landed on the cut.
+
+Marius walked to the rack, picked up the practice sword, and measured it against the broken one.
+
+Cassia watched the pulley until the rope slipped, then marked the frayed strand with chalk.
+
+The actor lowered his voice for the stage cue.
+
+The singer smiled after the conductor gave the entrance cue.
+
+The runner crossed his arms to stretch his shoulders before the race.
+
+The technician rested her hands on the sill to reach the loose antenna cable.

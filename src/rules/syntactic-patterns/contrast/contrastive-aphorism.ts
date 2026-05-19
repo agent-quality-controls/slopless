@@ -286,6 +286,32 @@ function matchGetsOneAnotherPair(
   return undefined;
 }
 
+function hasEvaluativePredicate(words: readonly string[]): boolean {
+  return words.some(
+    (word, index) =>
+      ["is", "feels", "get", "gets", "becomes"].includes(word) &&
+      pairHasAbstractSubjectOrObject(words, word, words[index + 1] ?? "")
+  );
+}
+
+function matchEvaluativeContrastPair(
+  first: string,
+  second: string
+): string | undefined {
+  const a = tokens(cleanSentence(first, PREFIXES));
+  const b = tokens(cleanSentence(second, PREFIXES));
+  const aTail = a.at(-1);
+  const bTail = b.at(-1);
+
+  return aTail !== undefined &&
+    bTail !== undefined &&
+    aTail !== bTail &&
+    hasEvaluativePredicate(a) &&
+    hasEvaluativePredicate(b)
+    ? "abstract-evaluative-pair"
+    : undefined;
+}
+
 const rule = defineTextlintRule({
   detector: {
     detect: ({ units }) => {
@@ -312,12 +338,16 @@ const rule = defineTextlintRule({
         if (current === undefined || next === undefined) {
           continue;
         }
+        if (current.node !== next.node) {
+          continue;
+        }
 
         const signal =
           matchCurriculumPair(current.text, next.text) ??
           matchLessMorePair(current.text, next.text) ??
           matchGivesYouPair(current.text, next.text) ??
-          matchGetsOneAnotherPair(current.text, next.text);
+          matchGetsOneAnotherPair(current.text, next.text) ??
+          matchEvaluativeContrastPair(current.text, next.text);
         if (signal !== undefined) {
           detections.push({
             evidence: signal,

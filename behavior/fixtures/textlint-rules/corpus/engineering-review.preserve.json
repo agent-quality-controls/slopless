@@ -2549,6 +2549,181 @@
       "bucket": "no-hits",
       "source": "cases/syntactic-patterns/no-hits.md",
       "line": 145
+    },
+    {
+      "text": "This changes the invoice total because the tax rate moved from 6 percent to 8 percent.",
+      "family": "semantic-thinness",
+      "bucket": "no-hits",
+      "source": "cases/semantic-thinness/no-hits.md",
+      "line": 153
+    },
+    {
+      "text": "That shows the crawler received a 403 before the body copy rendered.",
+      "family": "semantic-thinness",
+      "bucket": "no-hits",
+      "source": "cases/semantic-thinness/no-hits.md",
+      "line": 155
+    },
+    {
+      "text": "It explains why the queue stalled after the retry worker lost its token.",
+      "family": "semantic-thinness",
+      "bucket": "no-hits",
+      "source": "cases/semantic-thinness/no-hits.md",
+      "line": 157
+    },
+    {
+      "text": "The missing layer is access control: only billing admins can export invoices.",
+      "family": "semantic-thinness",
+      "bucket": "no-hits",
+      "source": "cases/semantic-thinness/no-hits.md",
+      "line": 159
+    },
+    {
+      "text": "The practical answer is to rotate the signing key before the deployment.",
+      "family": "semantic-thinness",
+      "bucket": "no-hits",
+      "source": "cases/semantic-thinness/no-hits.md",
+      "line": 161
+    },
+    {
+      "text": "The useful version is the one with line numbers and source offsets.",
+      "family": "semantic-thinness",
+      "bucket": "no-hits",
+      "source": "cases/semantic-thinness/no-hits.md",
+      "line": 163
+    },
+    {
+      "text": "The air felt heavy because smoke from the kiln filled the courtyard.",
+      "family": "semantic-thinness",
+      "bucket": "no-hits",
+      "source": "cases/semantic-thinness/no-hits.md",
+      "line": 165
+    },
+    {
+      "text": "The room went silent after the generator stopped.",
+      "family": "semantic-thinness",
+      "bucket": "no-hits",
+      "source": "cases/semantic-thinness/no-hits.md",
+      "line": 167
+    },
+    {
+      "text": "The market felt different because three stalls moved after the fire.",
+      "family": "semantic-thinness",
+      "bucket": "no-hits",
+      "source": "cases/semantic-thinness/no-hits.md",
+      "line": 169
+    },
+    {
+      "text": "Her stomach tightened because the harness strap pulled across the bruise.",
+      "family": "semantic-thinness",
+      "bucket": "no-hits",
+      "source": "cases/semantic-thinness/no-hits.md",
+      "line": 171
+    },
+    {
+      "text": "His shoulders sank after the doctor lowered the weighted brace.",
+      "family": "semantic-thinness",
+      "bucket": "no-hits",
+      "source": "cases/semantic-thinness/no-hits.md",
+      "line": 173
+    },
+    {
+      "text": "Her throat closed because the peanut lodged below the tongue.",
+      "family": "semantic-thinness",
+      "bucket": "no-hits",
+      "source": "cases/semantic-thinness/no-hits.md",
+      "line": 175
+    },
+    {
+      "text": "The weight settled on the scale at 12 kilograms.",
+      "family": "semantic-thinness",
+      "bucket": "no-hits",
+      "source": "cases/semantic-thinness/no-hits.md",
+      "line": 177
+    },
+    {
+      "text": "The words hit the paper banner like rain because the roof leaked.",
+      "family": "semantic-thinness",
+      "bucket": "no-hits",
+      "source": "cases/semantic-thinness/no-hits.md",
+      "line": 179
+    },
+    {
+      "text": "The route is easy because the trail is paved and marked.",
+      "family": "syntactic-patterns",
+      "bucket": "no-hits",
+      "source": "cases/syntactic-patterns/no-hits.md",
+      "line": 171
+    },
+    {
+      "text": "The movie is different because the director restored the missing scene.",
+      "family": "syntactic-patterns",
+      "bucket": "no-hits",
+      "source": "cases/syntactic-patterns/no-hits.md",
+      "line": 173
+    },
+    {
+      "text": "The repair gives you a receipt. The warranty gives you a serial number.",
+      "family": "syntactic-patterns",
+      "bucket": "no-hits",
+      "source": "cases/syntactic-patterns/no-hits.md",
+      "line": 175
+    },
+    {
+      "text": "The dashboard gets one chart. The export gets another column.",
+      "family": "syntactic-patterns",
+      "bucket": "no-hits",
+      "source": "cases/syntactic-patterns/no-hits.md",
+      "line": 177
+    },
+    {
+      "text": "The patient gets one dose. The nurse records another dose.",
+      "family": "syntactic-patterns",
+      "bucket": "no-hits",
+      "source": "cases/syntactic-patterns/no-hits.md",
+      "line": 179
+    },
+    {
+      "text": "The answer key is straightforward because every page lists the worked solution.",
+      "family": "syntactic-patterns",
+      "bucket": "no-hits",
+      "source": "cases/syntactic-patterns/no-hits.md",
+      "line": 181
+    },
+    {
+      "text": "The practical guide is useful because it names the commands and flags.",
+      "family": "syntactic-patterns",
+      "bucket": "no-hits",
+      "source": "cases/syntactic-patterns/no-hits.md",
+      "line": 183
+    },
+    {
+      "text": "What changed after the first patch was the cache key.",
+      "family": "syntactic-patterns",
+      "bucket": "no-hits",
+      "source": "cases/syntactic-patterns/no-hits.md",
+      "line": 185
+    },
+    {
+      "text": "What works better than the old endpoint is the signed upload URL.",
+      "family": "syntactic-patterns",
+      "bucket": "no-hits",
+      "source": "cases/syntactic-patterns/no-hits.md",
+      "line": 187
+    },
+    {
+      "text": "The missing layer is authentication because the staging API rejects public tokens.",
+      "family": "syntactic-patterns",
+      "bucket": "no-hits",
+      "source": "cases/syntactic-patterns/no-hits.md",
+      "line": 189
+    },
+    {
+      "text": "The focus is practical optics in the microscope calibration note.",
+      "family": "syntactic-patterns",
+      "bucket": "no-hits",
+      "source": "cases/syntactic-patterns/no-hits.md",
+      "line": 191
     }
   ]
 }

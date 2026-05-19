@@ -6315,6 +6315,29 @@
         "line": 63,
         "loc": {
           "end": {
+            "column": 29,
+            "line": 63
+          },
+          "start": {
+            "column": 1,
+            "line": 63
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          1933,
+          1961
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 1933,
+        "line": 63,
+        "loc": {
+          "end": {
             "column": 53,
             "line": 63
           },
@@ -6904,6 +6927,29 @@
           3060
         ],
         "ruleId": "triple-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 3062,
+        "line": 105,
+        "loc": {
+          "end": {
+            "column": 39,
+            "line": 105
+          },
+          "start": {
+            "column": 1,
+            "line": 105
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          3062,
+          3100
+        ],
+        "ruleId": "contrastive-aphorism",
         "severity": 2,
         "type": "lint"
       },
@@ -12778,6 +12824,29 @@
         "line": 497,
         "loc": {
           "end": {
+            "column": 53,
+            "line": 497
+          },
+          "start": {
+            "column": 1,
+            "line": 497
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          20601,
+          20653
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 20601,
+        "line": 497,
+        "loc": {
+          "end": {
             "column": 99,
             "line": 497
           },
@@ -13077,6 +13146,29 @@
         "line": 505,
         "loc": {
           "end": {
+            "column": 48,
+            "line": 505
+          },
+          "start": {
+            "column": 1,
+            "line": 505
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          21046,
+          21093
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 21046,
+        "line": 505,
+        "loc": {
+          "end": {
             "column": 180,
             "line": 505
           },
@@ -13137,6 +13229,29 @@
           21272
         ],
         "ruleId": "triple-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 21274,
+        "line": 509,
+        "loc": {
+          "end": {
+            "column": 33,
+            "line": 509
+          },
+          "start": {
+            "column": 1,
+            "line": 509
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          21274,
+          21306
+        ],
+        "ruleId": "contrastive-aphorism",
         "severity": 2,
         "type": "lint"
       },
@@ -13620,6 +13735,29 @@
           22107
         ],
         "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 22109,
+        "line": 523,
+        "loc": {
+          "end": {
+            "column": 27,
+            "line": 523
+          },
+          "start": {
+            "column": 1,
+            "line": 523
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          22109,
+          22135
+        ],
+        "ruleId": "contrastive-aphorism",
         "severity": 2,
         "type": "lint"
       },
@@ -14586,6 +14724,29 @@
           23765
         ],
         "ruleId": "summative-closer",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 23767,
+        "line": 565,
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 565
+          },
+          "start": {
+            "column": 1,
+            "line": 565
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          23767,
+          23792
+        ],
+        "ruleId": "contrastive-aphorism",
         "severity": 2,
         "type": "lint"
       },
@@ -17751,6 +17912,29 @@
         "line": 189,
         "loc": {
           "end": {
+            "column": 52,
+            "line": 189
+          },
+          "start": {
+            "column": 1,
+            "line": 189
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          9747,
+          9798
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 9747,
+        "line": 189,
+        "loc": {
+          "end": {
             "column": 172,
             "line": 189
           },
@@ -18938,6 +19122,29 @@
           16589
         ],
         "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 16591,
+        "line": 289,
+        "loc": {
+          "end": {
+            "column": 49,
+            "line": 289
+          },
+          "start": {
+            "column": 1,
+            "line": 289
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          16591,
+          16639
+        ],
+        "ruleId": "contrastive-aphorism",
         "severity": 2,
         "type": "lint"
       },
@@ -20143,6 +20350,29 @@
         "line": 379,
         "loc": {
           "end": {
+            "column": 48,
+            "line": 379
+          },
+          "start": {
+            "column": 1,
+            "line": 379
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          22583,
+          22630
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 22583,
+        "line": 379,
+        "loc": {
+          "end": {
             "column": 131,
             "line": 379
           },
@@ -20180,6 +20410,29 @@
           22713
         ],
         "ruleId": "triple-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 22715,
+        "line": 381,
+        "loc": {
+          "end": {
+            "column": 73,
+            "line": 381
+          },
+          "start": {
+            "column": 1,
+            "line": 381
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          22715,
+          22787
+        ],
+        "ruleId": "contrastive-aphorism",
         "severity": 2,
         "type": "lint"
       },
@@ -21776,7 +22029,7 @@
             "line": 31
           }
         },
-        "message": "Body-action density: 3 movement cues in a short span (turned, crossed her arms, waited).",
+        "message": "Body-action density: 3 movement cues in a short span (turned her head, crossed her arms, waited).",
         "range": [
           1273,
           1365
@@ -29838,6 +30091,29 @@
         "line": 33,
         "loc": {
           "end": {
+            "column": 29,
+            "line": 33
+          },
+          "start": {
+            "column": 1,
+            "line": 33
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          825,
+          853
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 825,
+        "line": 33,
+        "loc": {
+          "end": {
             "column": 53,
             "line": 33
           },
@@ -30588,6 +30864,29 @@
           2218
         ],
         "ruleId": "triple-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 2220,
+        "line": 85,
+        "loc": {
+          "end": {
+            "column": 39,
+            "line": 85
+          },
+          "start": {
+            "column": 1,
+            "line": 85
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          2220,
+          2258
+        ],
+        "ruleId": "contrastive-aphorism",
         "severity": 2,
         "type": "lint"
       },
@@ -36278,6 +36577,29 @@
         "line": 505,
         "loc": {
           "end": {
+            "column": 52,
+            "line": 505
+          },
+          "start": {
+            "column": 1,
+            "line": 505
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          20744,
+          20795
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 20744,
+        "line": 505,
+        "loc": {
+          "end": {
             "column": 172,
             "line": 505
           },
@@ -38224,6 +38546,29 @@
           30457
         ],
         "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 30459,
+        "line": 651,
+        "loc": {
+          "end": {
+            "column": 49,
+            "line": 651
+          },
+          "start": {
+            "column": 1,
+            "line": 651
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          30459,
+          30507
+        ],
+        "ruleId": "contrastive-aphorism",
         "severity": 2,
         "type": "lint"
       },
@@ -40648,6 +40993,29 @@
         "line": 819,
         "loc": {
           "end": {
+            "column": 53,
+            "line": 819
+          },
+          "start": {
+            "column": 1,
+            "line": 819
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          40614,
+          40666
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 40614,
+        "line": 819,
+        "loc": {
+          "end": {
             "column": 99,
             "line": 819
           },
@@ -40947,6 +41315,29 @@
         "line": 827,
         "loc": {
           "end": {
+            "column": 48,
+            "line": 827
+          },
+          "start": {
+            "column": 1,
+            "line": 827
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          41059,
+          41106
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 41059,
+        "line": 827,
+        "loc": {
+          "end": {
             "column": 180,
             "line": 827
           },
@@ -41085,6 +41476,29 @@
         "line": 833,
         "loc": {
           "end": {
+            "column": 48,
+            "line": 833
+          },
+          "start": {
+            "column": 1,
+            "line": 833
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          41434,
+          41481
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 41434,
+        "line": 833,
+        "loc": {
+          "end": {
             "column": 131,
             "line": 833
           },
@@ -41122,6 +41536,29 @@
           41564
         ],
         "ruleId": "triple-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 41566,
+        "line": 835,
+        "loc": {
+          "end": {
+            "column": 33,
+            "line": 835
+          },
+          "start": {
+            "column": 1,
+            "line": 835
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          41566,
+          41598
+        ],
+        "ruleId": "contrastive-aphorism",
         "severity": 2,
         "type": "lint"
       },
@@ -41421,6 +41858,29 @@
           42028
         ],
         "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 42030,
+        "line": 843,
+        "loc": {
+          "end": {
+            "column": 73,
+            "line": 843
+          },
+          "start": {
+            "column": 1,
+            "line": 843
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          42030,
+          42102
+        ],
+        "ruleId": "contrastive-aphorism",
         "severity": 2,
         "type": "lint"
       },
@@ -41789,6 +42249,29 @@
           42942
         ],
         "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 42944,
+        "line": 861,
+        "loc": {
+          "end": {
+            "column": 27,
+            "line": 861
+          },
+          "start": {
+            "column": 1,
+            "line": 861
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          42944,
+          42970
+        ],
+        "ruleId": "contrastive-aphorism",
         "severity": 2,
         "type": "lint"
       },
@@ -42985,6 +43468,29 @@
           45026
         ],
         "ruleId": "summative-closer",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 45028,
+        "line": 919,
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 919
+          },
+          "start": {
+            "column": 1,
+            "line": 919
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          45028,
+          45053
+        ],
+        "ruleId": "contrastive-aphorism",
         "severity": 2,
         "type": "lint"
       },
@@ -48834,29 +49340,6 @@
       },
       {
         "column": 1,
-        "index": 2895,
-        "line": 129,
-        "loc": {
-          "end": {
-            "column": 62,
-            "line": 129
-          },
-          "start": {
-            "column": 1,
-            "line": 129
-          }
-        },
-        "message": "Demonstrative emphasis found: \"The truth is that the latch was opened with Rory's spare key.\". Reduce repeated short emphasis lines.",
-        "range": [
-          2895,
-          2956
-        ],
-        "ruleId": "demonstrative-emphasis",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
         "index": 2958,
         "line": 131,
         "loc": {
@@ -50387,7 +50870,7 @@
             "line": 317
           }
         },
-        "message": "Body-action density: 3 movement cues in a short span (turned, crossed her arms, waited).",
+        "message": "Body-action density: 3 movement cues in a short span (turned her head, crossed her arms, waited).",
         "range": [
           10637,
           10729

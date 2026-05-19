@@ -30,7 +30,9 @@ const QUESTION_PATTERNS = [
   "wrong level of question",
   "the useful question is",
   "the useful move is",
+  "the missing layer is",
   "the practical move is",
+  "the practical point is",
   "the real question is",
   "the better question is",
   "the better operating question is"
@@ -44,6 +46,8 @@ const ANSWER_PATTERNS = [
   "the practical answer is",
   "the short answer is",
   "the better conclusion is",
+  "the clear answer is",
+  "the correct answer is",
   "the useful conclusion is simple"
 ];
 const FRAME_PATTERNS = [
@@ -252,10 +256,11 @@ function matchFormulaicContentSetup(text: string): string | undefined {
 
 function matchSignposting(sentence: string): SentenceMatch | undefined {
   const stripped = cleanSentence(sentence, PREFIXES);
+  const concreteImplementation = hasConcreteImplementationSummary(stripped);
   const abstract = matchAbstractFrame(stripped);
   const formulaicSetup = matchFormulaicContentSetup(stripped);
 
-  if (abstract !== undefined && !hasConcreteImplementationSummary(stripped)) {
+  if (abstract !== undefined && !concreteImplementation) {
     return { kind: "abstract-evaluation-frame", signal: abstract };
   }
   if (formulaicSetup !== undefined) {
@@ -275,6 +280,14 @@ function matchSignposting(sentence: string): SentenceMatch | undefined {
 
   for (const [kind, patterns] of checks) {
     const signal = containsAny(stripped, patterns);
+    if (
+      concreteImplementation &&
+      (kind === "answer-frame" ||
+        kind === "frame-signpost" ||
+        kind === "question-frame")
+    ) {
+      continue;
+    }
     if (signal !== undefined) {
       return { kind, signal };
     }

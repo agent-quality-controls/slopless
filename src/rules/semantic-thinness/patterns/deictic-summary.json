@@ -12,7 +12,11 @@
     "{deicticSubject} {summaryVerb} the {summaryNoun}.",
     "{deicticSubject} {summaryVerb} the {evaluativeAdjective} {summaryNoun}.",
     "{deicticSubject} {meaningVerb} {summaryNoun}.",
+    "{deicticSubject} {explanationVerb} {summaryNoun}.",
+    "{deicticSubject} {explanationVerb} the {summaryNoun}.",
     "{deicticSubject} {meaningVerb} {abstractSubject} {linkingVerb} {weakJudgment}.",
+    "{deicticSubject} {explanationVerb} why {abstractSubject} {abstractVerb}.",
+    "{deicticSubject} {explanationVerb} how {abstractSubject} {abstractVerb}.",
     "{deicticSubject} means the {artifactNoun} has to {thinObligation}.",
     "{deicticSubject} means the {artifactNoun} has to contain {abstractObject} worth {abstractGerund}.",
     "{deicticSubject} {linkingVerb} the kind of {summaryNoun}.",
@@ -94,6 +98,7 @@
       "context"
     ],
     "meaningVerb": ["means", "meant", "does not mean", "doesn't mean"],
+    "explanationVerb": ["shows", "showed", "explains", "explained", "proves"],
     "weakJudgment": [
       "useless",
       "useful",

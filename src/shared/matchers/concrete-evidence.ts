@@ -61,17 +61,28 @@ const AUTHORITY_CONCRETE_TOKENS = new Set([
   "status"
 ]);
 const IMPLEMENTATION_SUMMARY_TOKENS = new Set([
+  "api",
+  "authentication",
   "body",
   "cache",
+  "commands",
   "export",
+  "flags",
   "inhaler",
   "invoice",
+  "key",
+  "numbers",
   "locale",
   "nurse",
+  "offsets",
   "page",
   "parser",
   "repayment",
-  "returned"
+  "returned",
+  "signing",
+  "source",
+  "staging",
+  "tokens"
 ]);
 const MEDICAL_PLACE_TOKENS = new Set(["inhaler", "nurse"]);
 const CONCRETE_INVENTORY_HEADS = new Set(["dose", "patch", "rule", "test"]);

@@ -1,11 +1,11 @@
 {
   "suite": "textlint-rules",
   "kind": "approved",
-  "run_id": "2026-05-19T10-27-59.622591Z-f3c41e06",
-  "run_commit": "d0c91d0",
+  "run_id": "2026-05-19T11-35-41.294617Z-f3c41e06",
+  "run_commit": "21291ee",
   "working_tree": "dirty",
-  "recorded_at": "2026-05-19T10:27:59.622591Z",
-  "fixture_hash": "sha256:6c6a10fad0785008dfa382a14155e28ac529827f11e38c4e90c23d03921a3763",
+  "recorded_at": "2026-05-19T11:35:41.294617Z",
+  "fixture_hash": "sha256:fe68892ddcf12f37232bd4e9c21251a1fe4cd9753b1f569471b32b444ae89d92",
   "manifest_hash": "sha256:f3c41e06f4c33e3b21fa87bec32cd48f42af6c1064c3e6ae7d226d744fdbe350",
   "tool_version": "0.1.8",
   "output_schema_version": "1",
@@ -36,7 +36,7 @@
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/narrative-slop/no-hits.md",
-      "sha256": "sha256:8b788b04356adb25c3e931708cf4abd430ffb58abf6803b7de1327d9350a1b78"
+      "sha256": "sha256:c8619cdd6ef13b4173457d0988e718f1ac0c0c2803766461579a3eccd0debd7b"
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/no-signal/no-hits.md",
@@ -64,7 +64,7 @@
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/semantic-thinness/no-hits.md",
-      "sha256": "sha256:626abe1e10192658e224151c7175f4e49d34b150a36d416ebf4df83f8625e3b2"
+      "sha256": "sha256:f17c3c1593b30360f30186b2bc1b2caf1845a4d0967b51ae74eeb935b33fc519"
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/syntactic-patterns/hits.md",
@@ -72,7 +72,7 @@
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/syntactic-patterns/no-hits.md",
-      "sha256": "sha256:6febe4320a1b1fe603648c960d6ec05be71728975007f6ec8873fc3edebe29f4"
+      "sha256": "sha256:e5063728e849ba93a2da4704becf8684b444276f135852e947ef602a87f798ba"
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/term-policy/hits.md",
@@ -119,5 +119,5 @@
       "sha256": "sha256:e56e6ed5b1d94558aecd64c1844affcea9a6e6b7189ece747581949b27d3a870"
     }
   ],
-  "comment": "Suppress concrete false positives"
+  "comment": "Widen slop rules with no-hit controls"
 }

@@ -1233,6 +1233,76 @@
       "bucket": "no-hits",
       "source": "cases/narrative-slop/no-hits.md",
       "line": 57
+    },
+    {
+      "text": "Cassia stepped onto the marked square, lifted the latch, and checked the number scratched into the brass plate.",
+      "family": "narrative-slop",
+      "bucket": "no-hits",
+      "source": "cases/narrative-slop/no-hits.md",
+      "line": 59
+    },
+    {
+      "text": "Arden looked through the spyhole, counted two guards, and wrote the count on the slate.",
+      "family": "narrative-slop",
+      "bucket": "no-hits",
+      "source": "cases/narrative-slop/no-hits.md",
+      "line": 61
+    },
+    {
+      "text": "Liska's ears flattened under the bandage because the medic wrapped it too tightly.",
+      "family": "narrative-slop",
+      "bucket": "no-hits",
+      "source": "cases/narrative-slop/no-hits.md",
+      "line": 63
+    },
+    {
+      "text": "Remal's tail twitched when the fly landed on the cut.",
+      "family": "narrative-slop",
+      "bucket": "no-hits",
+      "source": "cases/narrative-slop/no-hits.md",
+      "line": 65
+    },
+    {
+      "text": "Marius walked to the rack, picked up the practice sword, and measured it against the broken one.",
+      "family": "narrative-slop",
+      "bucket": "no-hits",
+      "source": "cases/narrative-slop/no-hits.md",
+      "line": 67
+    },
+    {
+      "text": "Cassia watched the pulley until the rope slipped, then marked the frayed strand with chalk.",
+      "family": "narrative-slop",
+      "bucket": "no-hits",
+      "source": "cases/narrative-slop/no-hits.md",
+      "line": 69
+    },
+    {
+      "text": "The actor lowered his voice for the stage cue.",
+      "family": "narrative-slop",
+      "bucket": "no-hits",
+      "source": "cases/narrative-slop/no-hits.md",
+      "line": 71
+    },
+    {
+      "text": "The singer smiled after the conductor gave the entrance cue.",
+      "family": "narrative-slop",
+      "bucket": "no-hits",
+      "source": "cases/narrative-slop/no-hits.md",
+      "line": 73
+    },
+    {
+      "text": "The runner crossed his arms to stretch his shoulders before the race.",
+      "family": "narrative-slop",
+      "bucket": "no-hits",
+      "source": "cases/narrative-slop/no-hits.md",
+      "line": 75
+    },
+    {
+      "text": "The technician rested her hands on the sill to reach the loose antenna cable.",
+      "family": "narrative-slop",
+      "bucket": "no-hits",
+      "source": "cases/narrative-slop/no-hits.md",
+      "line": 77
     }
   ]
 }
