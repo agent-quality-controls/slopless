@@ -3796,6 +3796,75 @@
         "ruleId": "semantic-thinness",
         "severity": 2,
         "type": "lint"
+      },
+      {
+        "column": 84,
+        "index": 18684,
+        "line": 455,
+        "loc": {
+          "end": {
+            "column": 109,
+            "line": 455
+          },
+          "start": {
+            "column": 84,
+            "line": 455
+          }
+        },
+        "message": "Emotion telling: She was still very angry.. Replace the blunt emotion label with a concrete action, thought, or choice.",
+        "range": [
+          18684,
+          18709
+        ],
+        "ruleId": "emotion-telling",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 110,
+        "index": 18710,
+        "line": 455,
+        "loc": {
+          "end": {
+            "column": 215,
+            "line": 455
+          },
+          "start": {
+            "column": 110,
+            "line": 455
+          }
+        },
+        "message": "Attention redirection: Cassia looked at Arden. Remal had focused on the front latch, but Liska was showing them a different way.. Replace the camera/attention setup with the concrete route, clue, or decision.",
+        "range": [
+          18710,
+          18815
+        ],
+        "ruleId": "attention-redirection",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 254,
+        "index": 19070,
+        "line": 457,
+        "loc": {
+          "end": {
+            "column": 323,
+            "line": 457
+          },
+          "start": {
+            "column": 254,
+            "line": 457
+          }
+        },
+        "message": "Perception verb density: 2 perception verbs in a short span (looked).",
+        "range": [
+          19070,
+          19139
+        ],
+        "ruleId": "perception-verb-density",
+        "severity": 2,
+        "type": "lint"
       }
     ]
   }

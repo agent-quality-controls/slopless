@@ -1618,6 +1618,55 @@
       "bucket": "no-hits",
       "source": "cases/narrative-slop/no-hits.md",
       "line": 115
+    },
+    {
+      "text": "She was still very angry.",
+      "family": "narrative-slop",
+      "bucket": "hits",
+      "source": "cases/narrative-slop/hits.md",
+      "line": 89
+    },
+    {
+      "text": "Cassia looked at Arden. Remal had focused on the front latch, but Liska was showing them a different way.",
+      "family": "narrative-slop",
+      "bucket": "hits",
+      "source": "cases/narrative-slop/hits.md",
+      "line": 91
+    },
+    {
+      "text": "The warning light was still very angry red after the fuse failed.",
+      "family": "narrative-slop",
+      "bucket": "no-hits",
+      "source": "cases/narrative-slop/no-hits.md",
+      "line": 117
+    },
+    {
+      "text": "She was still very angry about the broken latch, so she counted the missing screws before speaking.",
+      "family": "narrative-slop",
+      "bucket": "no-hits",
+      "source": "cases/narrative-slop/no-hits.md",
+      "line": 119
+    },
+    {
+      "text": "Cassia looked at the chalk arrow and copied it onto the slate.",
+      "family": "narrative-slop",
+      "bucket": "no-hits",
+      "source": "cases/narrative-slop/no-hits.md",
+      "line": 121
+    },
+    {
+      "text": "Cassia looked at Arden because he held the only clean map.",
+      "family": "narrative-slop",
+      "bucket": "no-hits",
+      "source": "cases/narrative-slop/no-hits.md",
+      "line": 123
+    },
+    {
+      "text": "Remal had focused on the front latch and copied the serial number into the ledger.",
+      "family": "narrative-slop",
+      "bucket": "no-hits",
+      "source": "cases/narrative-slop/no-hits.md",
+      "line": 125
     }
   ]
 }

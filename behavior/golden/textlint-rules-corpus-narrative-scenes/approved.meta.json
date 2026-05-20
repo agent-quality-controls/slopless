@@ -1,19 +1,19 @@
 {
   "suite": "textlint-rules-corpus-narrative-scenes",
   "kind": "approved",
-  "run_id": "2026-05-20T16-55-02.412305Z-04547efb",
-  "run_commit": "212d962",
+  "run_id": "2026-05-20T17-11-05.698258Z-04547efb",
+  "run_commit": "a0b2e37",
   "working_tree": "dirty",
-  "recorded_at": "2026-05-20T16:55:02.412305Z",
-  "fixture_hash": "sha256:0dee7af124f26419b76c869abce01c703dc59063d5da3d5e1bdd8c183b0e938e",
+  "recorded_at": "2026-05-20T17:11:05.698258Z",
+  "fixture_hash": "sha256:3ce736a0b1c7315192a326b73a6a8b2154b6649b073d865b07a217002b71894d",
   "manifest_hash": "sha256:04547efbb13157ee3d8ef18dda767231fd63d3f9cc27c15317cf28c5f0583e7b",
   "tool_version": "0.1.8",
   "output_schema_version": "1",
   "fixtures": [
     {
       "path": "behavior/fixtures/textlint-rules/corpus/narrative-scenes.md",
-      "sha256": "sha256:d1d86cbbbcf44d84958d791cf9146087778c9f69e53360f139cc2d9109d53fb7"
+      "sha256": "sha256:9009a1b41ee01e6a77509f88ddc2f5f07143c68ec926a94bc4ee63a7a65b98c2"
     }
   ],
-  "comment": "Approve empty beat corpus findings"
+  "comment": "Approve Liska emotion and attention corpus findings"
 }

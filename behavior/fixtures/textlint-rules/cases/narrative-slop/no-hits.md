@@ -113,3 +113,13 @@ Liska waited beside the gate until Marius raised his paw.
 Her tail twitched when the fly landed on the cut.
 
 Her ears flattened under the bandage because the medic wrapped it too tightly.
+
+The warning light was still very angry red after the fuse failed.
+
+She was still very angry about the broken latch, so she counted the missing screws before speaking.
+
+Cassia looked at the chalk arrow and copied it onto the slate.
+
+Cassia looked at Arden because he held the only clean map.
+
+Remal had focused on the front latch and copied the serial number into the ledger.

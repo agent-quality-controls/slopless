@@ -1358,6 +1358,52 @@
         "ruleId": "empty-beat",
         "severity": 2,
         "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 3728,
+        "line": 89,
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 89
+          },
+          "start": {
+            "column": 1,
+            "line": 89
+          }
+        },
+        "message": "Emotion telling: She was still very angry.. Replace the blunt emotion label with a concrete action, thought, or choice.",
+        "range": [
+          3728,
+          3753
+        ],
+        "ruleId": "emotion-telling",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 3755,
+        "line": 91,
+        "loc": {
+          "end": {
+            "column": 106,
+            "line": 91
+          },
+          "start": {
+            "column": 1,
+            "line": 91
+          }
+        },
+        "message": "Attention redirection: Cassia looked at Arden. Remal had focused on the front latch, but Liska was showing them a different way.. Replace the camera/attention setup with the concrete route, clue, or decision.",
+        "range": [
+          3755,
+          3860
+        ],
+        "ruleId": "attention-redirection",
+        "severity": 2,
+        "type": "lint"
       }
     ]
   },

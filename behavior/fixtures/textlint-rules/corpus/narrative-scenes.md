@@ -451,3 +451,7 @@ The new controls keep short negation and silence lines literal when the cause is
 The next Liska passage uses empty beats instead of story movement. Liska paused for a second. Then she led them across the yard-compound to the steep stone stairs. Liska lingered in the dusty yard-compound, her tail twitching.
 
 The matching control passage keeps the same surface words but gives each beat a job or cause. Liska paused to listen for the bell under the stair. Liska paused for a second to count the missing buttons. Liska lingered by the broken latch to test whether it moved. Liska waited beside the gate until Marius raised his paw. Her tail twitched when the fly landed on the cut. Her ears flattened under the bandage because the medic wrapped it too tightly.
+
+The next Liska passage labels emotion and steers the reader with camera attention. She was still very angry. Cassia looked at Arden. Remal had focused on the front latch, but Liska was showing them a different way.
+
+The matching control passage keeps emotion and attention tied to concrete work. The warning light was still very angry red after the fuse failed. She was still very angry about the broken latch, so she counted the missing screws before speaking. Cassia looked at the chalk arrow and copied it onto the slate. Cassia looked at Arden because he held the only clean map. Remal had focused on the front latch and copied the serial number into the ledger.

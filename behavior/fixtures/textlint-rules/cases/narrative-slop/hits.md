@@ -85,3 +85,7 @@ He blinked, looked down, looked up, and felt the moment settle like dust across 
 Liska paused for a second. Then she led them across the yard-compound to the steep stone stairs.
 
 Liska lingered in the dusty yard-compound, her tail twitching.
+
+She was still very angry.
+
+Cassia looked at Arden. Remal had focused on the front latch, but Liska was showing them a different way.

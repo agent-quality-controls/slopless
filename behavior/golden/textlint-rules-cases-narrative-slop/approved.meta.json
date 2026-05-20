@@ -1,23 +1,23 @@
 {
   "suite": "textlint-rules-cases-narrative-slop",
   "kind": "approved",
-  "run_id": "2026-05-20T16-55-01.311985Z-04547efb",
-  "run_commit": "212d962",
+  "run_id": "2026-05-20T17-11-04.5608Z-04547efb",
+  "run_commit": "a0b2e37",
   "working_tree": "dirty",
-  "recorded_at": "2026-05-20T16:55:01.311985Z",
-  "fixture_hash": "sha256:e797d3648099d794196ed32755f57ab09a2843b6674534de9c62d5af87fa6773",
+  "recorded_at": "2026-05-20T17:11:04.5608Z",
+  "fixture_hash": "sha256:fe6252c4413e3969d43dac838d7be066fbb3bfcabfbfc3c67ecc659da16a4e21",
   "manifest_hash": "sha256:04547efbb13157ee3d8ef18dda767231fd63d3f9cc27c15317cf28c5f0583e7b",
   "tool_version": "0.1.8",
   "output_schema_version": "1",
   "fixtures": [
     {
       "path": "behavior/fixtures/textlint-rules/cases/narrative-slop/hits.md",
-      "sha256": "sha256:595ed204cbf5c49542c9d27634e9388438940c25c9e323f53cb70b83f6d1d326"
+      "sha256": "sha256:06efafbebb9dfab6ff7fc6ddfdeb7bf3ae0463ec26ce26e76043209366c612be"
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/narrative-slop/no-hits.md",
-      "sha256": "sha256:f1181fde4a5cbbf5e30cab8d8812e6fccb4b5f3340c2116958fd929031f75662"
+      "sha256": "sha256:2e660ac6aa4b0477573636776c6442d826cb5546258281a7b71281daa3c120f7"
     }
   ],
-  "comment": "Approve empty beat narrative findings"
+  "comment": "Approve Liska emotion and attention narrative findings"
 }
