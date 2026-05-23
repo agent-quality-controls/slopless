@@ -37,15 +37,17 @@ Requires Node.js 22 or newer.
 ```bash
 git clone https://github.com/seochecks-ai/slopless.git
 cd slopless
-npm install
-npm run build
+pnpm install
+pnpm run build
 ```
 
 Run the full validation pipeline (the same checks the pre-commit gate runs):
 
 ```bash
-npm run validate
+pnpm run validate
 ```
+
+`pnpm` is pinned via `packageManager` in `package.json` (currently 11.2.2). Use [corepack](https://nodejs.org/api/corepack.html) (`corepack enable`) to let Node select the right version automatically.
 
 ## Rule design principles
 
