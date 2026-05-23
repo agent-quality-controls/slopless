@@ -1,8 +1,29 @@
 {
   "name": "slopless",
   "version": "0.2.12",
-  "description": "Deterministic textlint rules for detecting slop in prose.",
+  "description": "Deterministic textlint rules and CLI for catching prose slop in English Markdown.",
+  "keywords": [
+    "textlint",
+    "textlint-rule",
+    "markdown",
+    "lint",
+    "linter",
+    "prose",
+    "writing",
+    "ai",
+    "llm",
+    "slop",
+    "quality",
+    "style-guide",
+    "static-analysis",
+    "cli"
+  ],
   "license": "MIT",
+  "author": "seochecks.ai (https://seochecks.ai)",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/seochecks-ai/slopless.git"
@@ -31,7 +52,8 @@
     "dist",
     "README.md",
     "skills",
-    "slopless.textlintrc.json"
+    "slopless.textlintrc.json",
+    "!dist/**/*.map"
   ],
   "bin": {
     "slopless": "dist/cli.js"
